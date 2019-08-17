@@ -1,0 +1,8 @@
+input[type=text]:not(.browser-default) {
+    border-bottom: 0px !important;
+    box-shadow: 0 0 0 0;
+}
+input[type=text]:not(.browser-default):focus:not([read-only]) {
+    border-bottom: 0px !important;
+    box-shadow: 0 0 0 0;
+}

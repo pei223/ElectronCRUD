@@ -1,0 +1,22 @@
+<!-- 開発環境用index.html パスがbabelでコンパイルした.tmpとなる -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>ElectronCRUD</title>
+  <!-- Materialize -->
+  <link type="text/css" rel="stylesheet" href="../prod_resources/css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="../prod_resources/css/app.css" />
+  <link type="text/css" rel="stylesheet" href="../prod_resources/css/reset.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <div id="app_root"></div>
+  <script>
+    require("../.tmp/renderer/root.js")
+  </script>
+</body>
+
+</html>
