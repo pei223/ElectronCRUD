@@ -12,7 +12,7 @@ export default class TodoRepository {
                 id: maxId,
                 title: newTodo.title,
                 checked: newTodo.checked,
-            }, function (err: any, doc: any) {
+            }, function (err: any) {
                 if (err) {
                     console.log(err)
                     reject(null)
@@ -63,7 +63,7 @@ export default class TodoRepository {
                 id: id
             }, {
                 multi: true
-            }, function (err: any, docs: any) {
+            }, function (err: any) {
                 if (err) {
                     console.log(err)
                     reject(null)

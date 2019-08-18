@@ -1,5 +1,5 @@
 export default class Stream {
-    observers: Function[];
+    private observers: Array<Function>;
 
     constructor() {
         this.observers = []

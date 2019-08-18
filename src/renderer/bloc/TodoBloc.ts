@@ -17,8 +17,7 @@ export default class TodoBloc {
         this.todoStateStream = new Stream()
     }
 
-    async addTodo(newTodo: TodoEntity
-         ) {
+    async addTodo(newTodo: TodoEntity) {
         let repo = new TodoRepository()
         let createdTodo = await repo.create(newTodo)
         if (createdTodo) {
@@ -34,7 +33,7 @@ export default class TodoBloc {
         this.todoStream.stream(data)
     }
 
-    async deleteTodo(id) {
+    async deleteTodo(id: number) {
         let repo = new TodoRepository()
         let deletedId = await repo.delete(id)
         if (deletedId) {
@@ -44,13 +43,13 @@ export default class TodoBloc {
         this.todoStateStream.stream(new TodoState(null, ERROR))
     }
 
-    async findTodo(id) {
+    async findTodo(id: number) {
         let repo = new TodoRepository()
         let data = await repo.find(id)
         this.todoStream.stream(data)
     }
 
-    async updateTodo(newTodo) {
+    async updateTodo(newTodo: TodoEntity) {
         let repo = new TodoRepository()
         let isUpdated = await repo.update(newTodo)
         if (isUpdated) {

@@ -2,7 +2,7 @@
   "name": "electroncrud",
   "version": "1.0.0",
   "description": "",
-  "main": ".tmp/main/app.js",
+  "main": "dist/main/app.js",
   "scripts": {
     "clean": "rimraf .tmp dist release",
     "watch": "./node_modules/.bin/babel --watch --out-dir .tmp src",
