@@ -51,13 +51,18 @@ const config = {
   target: 'electron-renderer',
   module: {
     rules: [{
-      test: /\.(js|jsx)$/,
-      exclude: path.resolve(__dirname, 'node_modules'),
-      loader: 'babel-loader',
-      query:{
-          presets: ['es2015', 'react',],
+        test: /\.(js|jsx)$/,
+        exclude: path.resolve(__dirname, 'node_modules'),
+        loader: 'babel-loader',
+        query: {
+          presets: ['es2015', 'react', ],
+        },
       },
-    },],
+      {
+        test: /\.(ts|tsx)$/,
+        use: "ts-loader"
+      }
+    ],
   },
   entry: {
     "main/app": "./src/main/app.js",
@@ -72,7 +77,7 @@ const config = {
   },
   resolve: {
     extensions: [
-    '.jsx', '.js'
+      '.jsx', '.js', '.ts', 'tsx'
     ],
     plugins: [fixNedbForElectronRenderer]
   },

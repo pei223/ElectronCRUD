@@ -1,50 +1,51 @@
 import TodoEntity from '../entity/TodoEntity';
+import TodoState from '../entity/TodoState';
 const remote = require('electron').remote;
 const todoDb = remote.getGlobal('todoDb');
 
 
 export default class TodoRepository {
-    async create(newTodo) {
-        let maxId = await this._maxId()
+    public async create(newTodo: TodoEntity): Promise<TodoEntity> {
+        let maxId = await this.maxId()
         return new Promise((resolve, reject) => {
             todoDb.insert({
                 id: maxId,
                 title: newTodo.title,
                 checked: newTodo.checked,
-            }, function (err, doc) {
+            }, function (err: any, doc: any) {
                 if (err) {
                     console.log(err)
                     reject(null)
                     return
                 }
-                resolve(doc)
+                resolve(newTodo)
             })
         })
     }
 
-    async read() {
+    public async read(): Promise<Array<TodoEntity>> {
         return new Promise((resolve, reject) => {
             todoDb.find({}).sort({
                 id: -1
             }).exec(
-                function (err, docs) {
+                function (err: any, docs: any) {
                     if (err) {
                         console.log(err)
                         reject(null)
                         return
                     }
-                    resolve(this._parseTodoList(docs))
+                    resolve(this.parseTodoList(docs))
                 }.bind(this)
             )
         })
     }
 
-    async find(id) {
+    public async find(id: number): Promise<TodoEntity> {
         return new Promise((resolve, reject) => {
             todoDb.find({
                     id: id
                 },
-                function (err, docs) {
+                function (err: any, docs: any) {
                     if (err || docs.length === 0) {
                         console.log(err)
                         reject(err)
@@ -56,13 +57,13 @@ export default class TodoRepository {
         })
     }
 
-    async delete(id) {
+    public async delete(id: number): Promise<number> {
         return new Promise((resolve, reject) => {
             todoDb.remove({
                 id: id
             }, {
                 multi: true
-            }, function (err, docs) {
+            }, function (err: any, docs: any) {
                 if (err) {
                     console.log(err)
                     reject(null)
@@ -73,7 +74,7 @@ export default class TodoRepository {
         })
     }
 
-    async update(todo) {
+    public async update(todo: TodoEntity): Promise<TodoState> {
         return new Promise((resolve, reject) => {
             todoDb.update({
                 id: todo.id
@@ -81,7 +82,7 @@ export default class TodoRepository {
                 id: todo.id,
                 title: todo.title,
                 checked: todo.checked
-            }, {}, function (err, docId) {
+            }, {}, function (err: any, docId: any) {
                 if (err) {
                     console.log(err)
                     reject(null)
@@ -92,25 +93,25 @@ export default class TodoRepository {
         })
     }
 
-    _parseTodoList(objects) {
+    private parseTodoList(objects: Array<any>): Array<TodoEntity> {
         if (!objects || objects.length === 0) {
             return []
         }
         let todos = []
         objects.forEach(
-            (object) => {
+            (object: any) => {
                 todos.push(new TodoEntity(object.id, object.title, object.checked))
             }
         )
         return todos
     }
 
-    async _maxId() {
+    private async maxId(): Promise<number> {
         return new Promise((resolve, reject) => {
             todoDb.find({}).sort({
                 id: -1
             }).exec(
-                function (err, docs) {
+                function (err: any, docs: any) {
                     if (err || !docs || docs.length === 0 || !docs[0]) {
                         resolve(1)
                         return

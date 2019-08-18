@@ -9,12 +9,16 @@ import TodoState, {
 import TodoEntity from "../entity/TodoEntity";
 
 export default class TodoBloc {
+    todoStream: Stream;
+    todoStateStream: Stream;
+
     constructor() {
         this.todoStream = new Stream()
         this.todoStateStream = new Stream()
     }
 
-    async addTodo(newTodo) {
+    async addTodo(newTodo: TodoEntity
+         ) {
         let repo = new TodoRepository()
         let createdTodo = await repo.create(newTodo)
         if (createdTodo) {

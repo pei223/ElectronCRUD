@@ -14,7 +14,7 @@ import Progress from "./util/progress";
 export default class Form extends React.Component {
     constructor(props) {
         super(props)
-        this.todoBloc = BlocProvider.todoBloc
+        this.todoBloc = BlocProvider.getInstance().todoBloc
         let id = this.props && this.props.match && this.props.match.params.id ? parseInt(this.props.match.params.id) : null
         this.state = {
             id: id,

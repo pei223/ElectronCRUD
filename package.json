@@ -6,9 +6,7 @@
   "scripts": {
     "clean": "rimraf .tmp dist release",
     "watch": "./node_modules/.bin/babel --watch --out-dir .tmp src",
-    
     "debug_compile": "cpx \"prod_resources/**/*\" .tmp && babel --out-dir .tmp src",
-
     "start": "electron .",
     "bundle": "npm run prebundle && webpack",
     "prebundle": "cpx \"prod_resources/**/*\" dist",
@@ -41,6 +39,8 @@
     "electron": "^6.0.2",
     "electron-builder": "^21.2.0",
     "electron-packager": "^14.0.4",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6"
   }

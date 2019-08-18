@@ -10,7 +10,7 @@ import SupportDialog from "./util/support_dialog";
 export default class List extends React.Component {
     constructor() {
         super()
-        this.todoBloc = BlocProvider.todoBloc
+        this.todoBloc = BlocProvider.getInstance().todoBloc
         this.onTodoFetchedCallback = (data) => this._onTodoFetchd(data)
         this.onTodoStateChangedCallback = (data) => this._onTodoStateChanged(data)
         this.state = {
