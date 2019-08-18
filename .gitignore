@@ -1,4 +1,7 @@
 # Logs
+.tmp
+dist
+release
 logs
 *.log
 npm-debug.log*

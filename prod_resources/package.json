@@ -2,7 +2,7 @@
     "name": "electron_crud",
     "productName": "Electron CRUD",
     "version": "1.0.0",
-    "main": "main/index.js",
+    "main": "main/app.js",
     "description": "Simple chat application",
     "author": "Your Name"
   }

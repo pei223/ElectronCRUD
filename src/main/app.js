@@ -3,7 +3,11 @@ import {
   BrowserWindow
 } from "electron"
 import { initDb } from "./db"
+import localforage from 'localforage';
 
+localforage.ready().catch(function() {
+  /* so that webpack sees the rejected promise as handled */
+});
 
 process.on('uncaughtException', function(err) {
   app.quit();
@@ -17,8 +21,7 @@ function createWindow() {
     width: 900,
     height: 700,
   });
-  win.loadURL(`file://${__dirname}/../index.html`);  // For release
-  // win.loadURL(`file://${__dirname}/../../src/index.html`);
+  win.loadURL(`file://${__dirname}/../index.html`);
   win.on("close", () => {
     win = null;
   });

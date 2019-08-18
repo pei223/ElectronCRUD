@@ -42,7 +42,7 @@ export default class TodoBloc {
     async findTodo(id) {
         let repo = new TodoRepository()
         let data = await repo.find(id)
-        this.todoStream.stream(data[0])
+        this.todoStream.stream(data)
     }
 
     async updateTodo(newTodo) {

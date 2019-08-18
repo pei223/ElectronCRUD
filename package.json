@@ -5,13 +5,14 @@
   "main": ".tmp/main/app.js",
   "scripts": {
     "clean": "rimraf .tmp dist release",
-    "compile": "./node_modules/.bin/babel --out-dir .tmp src",
     "watch": "./node_modules/.bin/babel --watch --out-dir .tmp src",
+    
+    "debug_compile": "cpx \"prod_resources/**/*\" .tmp && babel --out-dir .tmp src",
+
     "start": "electron .",
-    "bundle": "webpack",
-    "prebundle": "npm run copy:resources",
-    "copy:resources": "cpx \"prod_resources/**/*\" dist",
-    "package": "npm run prebundle && npm run bundle &&  electron-packager ./dist --platform=darwin --out=release --overwrite"
+    "bundle": "npm run prebundle && webpack",
+    "prebundle": "cpx \"prod_resources/**/*\" dist",
+    "package": "npm run bundle &&  electron-packager ./dist --platform=darwin --out=release --overwrite"
   },
   "author": "",
   "license": "ISC",

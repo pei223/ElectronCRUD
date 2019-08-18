@@ -111,7 +111,7 @@ export default class TodoRepository {
                 id: -1
             }).exec(
                 function (err, docs) {
-                    if (err || !docs || docs.length === 0) {
+                    if (err || !docs || docs.length === 0 || !docs[0]) {
                         resolve(0)
                     }
                     resolve(docs[0].id + 1)
