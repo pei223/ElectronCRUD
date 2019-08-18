@@ -1,7 +1,7 @@
 const path = require('path');
 require("fs")
 
-
+// NeDBのために必要
 const fixNedbForElectronRenderer = {
   apply(resolver) {
     resolver

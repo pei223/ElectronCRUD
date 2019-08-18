@@ -37,8 +37,11 @@ export default class Form extends React.Component {
     }
 
     _onTodoStateChanged(todoState) {
-        if (todoState.state === ADDED || todoState.state === UPDATED) {
-            this.props.history.push('/list')
+        switch(todoState.state) {
+            case ADDED:
+            case UPDATED:
+                this.props.history.push('/list')
+                break
         }
     }
 
@@ -109,7 +112,7 @@ export default class Form extends React.Component {
                     </Button>
                     <Button variant="contained" onClick={() => this.props.history.push("/list")}
                         style={{ color: "white", verticalAlign: "middle", backgroundColor: "#f44336", marginLeft: "15px" }}>
-                        <Icon>close</Icon>Cancel
+                        <Icon>close</Icon>{"　Cancel"}
                     </Button>
                 </div>
                 <Progress loading={this.state.loading} />

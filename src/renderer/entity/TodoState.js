@@ -4,8 +4,8 @@ export const ADDED = "added"
 export const ERROR = "error"
 
 export default class TodoState{
-    constructor(id, state) {
-        this.id = id
+    constructor(todo, state) {
+        this.todo = todo
         this.state = state
     }
 }

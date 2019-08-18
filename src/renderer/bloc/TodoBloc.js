@@ -6,6 +6,7 @@ import TodoState, {
     DELETED,
     ERROR
 } from "../entity/TodoState";
+import TodoEntity from "../entity/TodoEntity";
 
 export default class TodoBloc {
     constructor() {
@@ -17,7 +18,7 @@ export default class TodoBloc {
         let repo = new TodoRepository()
         let createdTodo = await repo.create(newTodo)
         if (createdTodo) {
-            this.todoStateStream.stream(new TodoState(createdTodo.id, ADDED))
+            this.todoStateStream.stream(new TodoState(newTodo, ADDED))
             return
         }
         this.todoStateStream.stream(new TodoState(null, ERROR))
@@ -33,7 +34,7 @@ export default class TodoBloc {
         let repo = new TodoRepository()
         let deletedId = await repo.delete(id)
         if (deletedId) {
-            this.todoStateStream.stream(new TodoState(deletedId, DELETED))
+            this.todoStateStream.stream(new TodoState(new TodoEntity(id, null, false), DELETED))
             return
         }
         this.todoStateStream.stream(new TodoState(null, ERROR))
@@ -49,7 +50,7 @@ export default class TodoBloc {
         let repo = new TodoRepository()
         let isUpdated = await repo.update(newTodo)
         if (isUpdated) {
-            this.todoStateStream.stream(new TodoState(newTodo.id, UPDATED))
+            this.todoStateStream.stream(new TodoState(newTodo, UPDATED))
             return
         }
         this.todoStateStream.stream(new TodoState(null, ERROR))

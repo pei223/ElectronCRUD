@@ -30,7 +30,7 @@ export default class TodoRepository {
                 function (err, docs) {
                     if (err) {
                         console.log(err)
-                        reject(err)
+                        reject(null)
                         return
                     }
                     resolve(this._parseTodoList(docs))
@@ -112,7 +112,8 @@ export default class TodoRepository {
             }).exec(
                 function (err, docs) {
                     if (err || !docs || docs.length === 0 || !docs[0]) {
-                        resolve(0)
+                        resolve(1)
+                        return
                     }
                     resolve(docs[0].id + 1)
                 }

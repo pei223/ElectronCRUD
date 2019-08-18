@@ -5,6 +5,7 @@ import {
 import { initDb } from "./db"
 import localforage from 'localforage';
 
+// NeDBを使用するために必要
 localforage.ready().catch(function() {
   /* so that webpack sees the rejected promise as handled */
 });

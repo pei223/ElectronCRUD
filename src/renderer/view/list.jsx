@@ -22,18 +22,18 @@ export default class List extends React.Component {
     }
 
     _onTodoFetchd(data) {
-        if (this.state.data.length > 0) {
-            for (let i=0;i<data.length;i++) {
-                if (data.length - i - 1 < 0 || this.state.data.length - i - 1 < 0) {
-                    break
-                }
-                if(data[data.length - i - 1].id === this.state.data[this.state.data.length - i - 1].id) {
-                    this.state.data[this.state.data.length - i - 1] = data[data.length - i - 1]
-                }
-            }
+        if (!data) {
             this.setState({
                 loading: false,
-                data: this.state.data
+                data: []
+            })
+            return
+        }
+        if (this.state.data.length > 0) {
+            let newData = this.state.data.concat(data)
+            this.setState({
+                loading: false,
+                data: newData
             }
             )
             return
@@ -46,15 +46,41 @@ export default class List extends React.Component {
         )
     }
 
+    _addTodosToTail(data) {
+
+        for (let i=0;i<data.length;i++) {
+            if (data.length - i - 1 < 0 || this.state.data.length - i - 1 < 0) {
+                break
+            }
+            if(data[data.length - i - 1].id === this.state.data[this.state.data.length - i - 1].id) {
+                this.state.data[this.state.data.length - i - 1] = data[data.length - i - 1]
+            }
+        }
+    }
+
     _onTodoStateChanged(todoState) {
+        if (!todoState) {
+            return
+        }
         switch (todoState.state) {
             case DELETED:
                 this.setState({
                     loading: false,
-                    data: this.state.data.filter((todo) => todo.id !== todoState.id)
+                    data: this.state.data.filter((todo) => todo.id !== todoState.todo.id)
                 })
+                break
             case UPDATED:
-                this.todoBloc.fetchTodo()
+                let newTodos = this.state.data.concat()
+                let updatedTodoIndex = newTodos.findIndex((todo) => todo.id === todoState.todo.id)
+                if (updatedTodoIndex < 0) {
+                    return
+                }
+                newTodos[updatedTodoIndex] = todoState.todo
+                this.setState({
+                    loading: false,
+                    data: newTodos
+                })
+                break
         }
     }
 
