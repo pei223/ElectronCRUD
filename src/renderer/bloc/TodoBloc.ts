@@ -8,13 +8,18 @@ import TodoState, {
 } from "../entity/TodoState";
 import TodoEntity from "../entity/TodoEntity";
 
+const DATA_OF_ONE_PAGE: number = 2
+
 export default class TodoBloc {
     todoStream: Stream;
     todoStateStream: Stream;
 
+    private cachedPageNum: number;
+
     constructor() {
         this.todoStream = new Stream()
         this.todoStateStream = new Stream()
+        this.cachedPageNum = 0
     }
 
     async addTodo(newTodo: TodoEntity) {
@@ -27,9 +32,12 @@ export default class TodoBloc {
         this.todoStateStream.stream(new TodoState(null, ERROR))
     }
 
-    async fetchTodo() {
+    async fetchTodo(pageNum: number) {
         let repo = new TodoRepository()
-        let data = await repo.read()
+        if (pageNum != null) {
+            this.cachedPageNum = pageNum
+        }
+        let data = await repo.read(this.cachedPageNum, DATA_OF_ONE_PAGE)
         this.todoStream.stream(data)
     }
 
@@ -57,6 +65,20 @@ export default class TodoBloc {
             return
         }
         this.todoStateStream.stream(new TodoState(null, ERROR))
+    }
+
+    async getPageCount(): Promise<number> {
+        let repo = new TodoRepository()
+        let count = await repo.count()
+        return Math.ceil(count / DATA_OF_ONE_PAGE)
+    }
+
+    getCachedPageNum() : number {
+        return this.cachedPageNum
+    }
+
+    clearCachedPageNum() {
+        this.cachedPageNum = 0
     }
 
     dispose() {

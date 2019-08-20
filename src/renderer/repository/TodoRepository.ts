@@ -23,11 +23,11 @@ export default class TodoRepository {
         })
     }
 
-    public async read(): Promise<Array<TodoEntity>> {
+    public async read(pageNum: number, onePageDataCount: number): Promise<Array<TodoEntity>> {
         return new Promise((resolve, reject) => {
             todoDb.find({}).sort({
                 id: -1
-            }).exec(
+            }).skip(pageNum * onePageDataCount).limit(onePageDataCount).exec(
                 function (err: any, docs: any) {
                     if (err) {
                         console.log(err)
@@ -90,6 +90,21 @@ export default class TodoRepository {
                 }
                 resolve(docId)
             })
+        })
+    }
+
+    public async count(): Promise<number> {
+        return new Promise((resolve, reject) => {
+            todoDb.find({},
+                function (err: any, docs: any) {
+                    if (err) {
+                        console.log(err)
+                        resolve(0)
+                        return
+                    }
+                    resolve(docs.length)
+                }.bind(this)
+            )
         })
     }
 

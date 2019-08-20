@@ -5,6 +5,7 @@ import { DELETED, UPDATED } from "../entity/TodoState";
 import Progress from "./util/progress";
 import TodoCard from "./list/todo_card";
 import SupportDialog from "./util/support_dialog";
+import Paging from "./list/paging";
 
 
 export default class List extends React.Component {
@@ -17,6 +18,7 @@ export default class List extends React.Component {
             deleteDialogOpening: false,
             focusedData: null,
             loading: true,
+            pageCount: 0,
             data: []
         }
     }
@@ -29,16 +31,6 @@ export default class List extends React.Component {
             })
             return
         }
-        if (this.state.data.length > 0) {
-            let newData = this.state.data.concat(data)
-            this.setState({
-                loading: false,
-                data: newData
-            }
-            )
-            return
-        }
-
         this.setState({
             loading: false,
             data: data
@@ -103,7 +95,7 @@ export default class List extends React.Component {
     componentDidMount() {
         this.todoBloc.todoStream.listen(this.onTodoFetchedCallback)
         this.todoBloc.todoStateStream.listen(this.onTodoStateChangedCallback)
-        this.todoBloc.fetchTodo()
+        this.todoBloc.fetchTodo(null)
     }
 
     componentWillUnmount() {
@@ -118,6 +110,14 @@ export default class List extends React.Component {
                 <div style={{ overflow: "auto" }}>
                     {this.state.data ? this.state.data.map((todo) => { return this._todoItem(todo) }) : ""}
                 </div>
+                <Paging onPageSelected={(i) => {
+                        this.setState({
+                            loading: true
+                        })
+                        this.todoBloc.fetchTodo(i)
+                    }}
+                    getPageCountFunction={() => this.todoBloc.getPageCount()}
+                    selectedPageNum={this.todoBloc.getCachedPageNum()} />
                 <Progress loading={this.state.loading} />
                 {this._deleteDialog()}
             </div>
