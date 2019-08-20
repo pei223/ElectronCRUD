@@ -1,4 +1,5 @@
 import TodoEntity from '../entity/TodoEntity';
+import SearchInfo from '../entity/SearchInfo';
 const remote = require('electron').remote;
 const todoDb = remote.getGlobal('todoDb');
 
@@ -15,6 +16,7 @@ export default class TodoRepository {
                 id: maxId,
                 title: newTodo.title,
                 checked: newTodo.checked,
+                createdAt: newTodo.createdAt
             }, function (err: any) {
                 if (err) {
                     console.log(err)
@@ -31,11 +33,14 @@ export default class TodoRepository {
      * @param pageNum ページ数
      * @param onePageDataCount 1ページに表示するデータ
      */
-    public async read(pageNum: number, onePageDataCount: number): Promise<Array<TodoEntity> | null> {
+    public async read(pageNum: number, onePageDataCount: number, searchInfo: SearchInfo): Promise<Array<TodoEntity> | null> {
         return new Promise((resolve, reject) => {
-            todoDb.find({}).sort({
+            todoDb.find(
+                searchInfo === null ? {} : this.toQuery(searchInfo)
+            ).sort({
                 id: -1
-            }).skip(pageNum * onePageDataCount).limit(onePageDataCount).exec(
+            })
+            .skip(pageNum * onePageDataCount).limit(onePageDataCount).exec(
                 function (err: any, docs: any) {
                     if (err) {
                         console.log(err)
@@ -101,7 +106,8 @@ export default class TodoRepository {
             }, {
                 id: todo.id,
                 title: todo.title,
-                checked: todo.checked
+                checked: todo.checked,
+                createdAt: todo.createdAt,
             }, {}, function (err: any, docId: any) {
                 if (err) {
                     console.log(err)
@@ -116,9 +122,10 @@ export default class TodoRepository {
     /**
      * データ数を返す. 
      */
-    public async count(): Promise<number> {
+    public async count(searchInfo: SearchInfo): Promise<number> {
         return new Promise((resolve, reject) => {
-            todoDb.find({},
+            todoDb.find(
+                searchInfo === null ? {} : this.toQuery(searchInfo),
                 function (err: any, docs: any) {
                     if (err) {
                         console.log(err)
@@ -142,7 +149,7 @@ export default class TodoRepository {
         let todos = []
         objects.forEach(
             (object: any) => {
-                todos.push(new TodoEntity(object.id, object.title, object.checked))
+                todos.push(new TodoEntity(object.id, object.title, object.checked, object.createdAt))
             }
         )
         return todos
@@ -165,5 +172,30 @@ export default class TodoRepository {
                 }
             )
         })
+    }
+
+    /**
+     * 検索情報をDBで使えるクエリに変換する
+     * @param searchInfo 検索情報
+     */
+    private toQuery(searchInfo: SearchInfo): {[key: string]: any} {
+        let result = {}
+        if (searchInfo.keyword !== null && searchInfo.keyword !== "") {
+            result["title"] = "/" + searchInfo.keyword + "/"
+        }
+        if (searchInfo.checked !== null) {
+            result["checked"] = searchInfo.checked
+        }
+        let createdAtQuery = {}
+        if (searchInfo.startDate !== null) {
+            createdAtQuery["$gte"] = searchInfo.startDate
+        }
+        if (searchInfo.endDate !== null) {
+            createdAtQuery["$lte"] = searchInfo.endDate
+        }
+        if (Object.keys(createdAtQuery).length !== 0) {
+            result["createdAt"] = createdAtQuery
+        }
+        return result
     }
 }

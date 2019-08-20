@@ -2,6 +2,7 @@ import Stream from "./Stream";
 import TodoRepository from "../repository/TodoRepository";
 import {TodoState, StateVal} from "../entity/TodoState";
 import TodoEntity from "../entity/TodoEntity";
+import SearchInfo from "../entity/SearchInfo";
 
 /**
  * 1ページに表示するデータ数
@@ -21,12 +22,17 @@ export default class TodoBloc {
     /**
      * 保持しているページ数
      */
-    private cachedPageNum: number;
+    private cachedPageNum: number
+    /**
+     * 保持している検索条件
+     */
+    private cachedSearchInfo: SearchInfo
 
     constructor() {
         this.todoStream = new Stream()
         this.todoStateStream = new Stream()
         this.cachedPageNum = 0
+        this.cachedSearchInfo = null
     }
 
     /**
@@ -52,7 +58,19 @@ export default class TodoBloc {
         if (pageNum != null) {
             this.cachedPageNum = pageNum
         }
-        let data: Array<TodoEntity> | null = await repo.read(this.cachedPageNum, DATA_OF_ONE_PAGE)
+        let data: Array<TodoEntity> | null = await repo.read(this.cachedPageNum, DATA_OF_ONE_PAGE, this.cachedSearchInfo)
+        this.todoStream.stream(data)
+    }
+
+    /**
+     * 指定した検索条件のデータリストをtodoStreamに流す.
+     * @param searchInfo 検索条件 
+     */
+    async searchTodo(searchInfo: SearchInfo) {
+        let repo = new TodoRepository()
+        this.cachedSearchInfo = searchInfo
+        this.cachedPageNum = 0
+        let data: Array<TodoEntity> | null = await repo.read(0, DATA_OF_ONE_PAGE, searchInfo)
         this.todoStream.stream(data)
     }
 
@@ -64,7 +82,7 @@ export default class TodoBloc {
         let repo = new TodoRepository()
         let deletedId: number | null = await repo.delete(id)
         if (deletedId != null) {
-            this.todoStateStream.stream(new TodoState(new TodoEntity(id, null, false), StateVal.DELETED))
+            this.todoStateStream.stream(new TodoState(TodoEntity.onlyId(id), StateVal.DELETED))
             return
         }
         this.todoStateStream.stream(new TodoState(null, StateVal.ERROR))
@@ -99,7 +117,7 @@ export default class TodoBloc {
      */
     async getPageCount(): Promise<number> {
         let repo = new TodoRepository()
-        let count: number = await repo.count()
+        let count: number = await repo.count(this.cachedSearchInfo)
         return Math.ceil(count / DATA_OF_ONE_PAGE)
     }
 
@@ -115,6 +133,10 @@ export default class TodoBloc {
      */
     clearCachedPageNum() {
         this.cachedPageNum = 0
+    }
+
+    clearCachedSearchInfo() {
+        this.cachedSearchInfo = null
     }
 
     /**

@@ -21,6 +21,7 @@ export default class Form extends React.Component {
             todoTitle: "",
             checked: false,
             loading: id ? true : false,
+            createdAt: 0
         }
         this.onTodoStateChangedCallback = (data) => this._onTodoStateChanged(data)
         this.onTodoFindedCallback = (data) => this._onTodoFinded(data)
@@ -32,6 +33,7 @@ export default class Form extends React.Component {
                 todoTitle: todo[0].title,
                 checked: todo[0].checked,
                 loading: false,
+                createdAt: todo[0].createdAt
             })
         }
     }
@@ -62,9 +64,10 @@ export default class Form extends React.Component {
             loading: true,
         })
         if (this.state.id) {
-            this.todoBloc.updateTodo(new TodoEntity(this.state.id, this.state.todoTitle, this.state.checked))
+            this.todoBloc.updateTodo(new TodoEntity(this.state.id, this.state.todoTitle, this.state.checked, this.state.createdAt))
         } else {
-            this.todoBloc.addTodo(new TodoEntity(null, this.state.todoTitle, this.state.checked))
+            this.todoBloc.clearCachedSearchInfo()
+            this.todoBloc.addTodo(new TodoEntity(null, this.state.todoTitle, this.state.checked, new Date().getTime()))
         }
     }
 

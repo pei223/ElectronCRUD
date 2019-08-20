@@ -1,29 +1,30 @@
 import React from "react";
 // original
 import BlocProvider from "../bloc/BlocProvider";
-import { TodoState, StateVal } from "../entity/TodoState";
+import { StateVal } from "../entity/TodoState";
 import Progress from "./util/progress";
 import TodoCard from "./list/todo_card";
 import SupportDialog from "./util/support_dialog";
 import Paging from "./list/paging";
+import SearchBox from "./list/search_box";
 
 
 export default class List extends React.Component {
     constructor() {
         super()
         this.todoBloc = BlocProvider.getInstance().todoBloc
-        this.onTodoFetchedCallback = (data) => this._onTodoFetchd(data)
+        this.onTodoFetchedCallback = (data) => this._onTodoFetched(data)
         this.onTodoStateChangedCallback = (data) => this._onTodoStateChanged(data)
         this.state = {
             deleteDialogOpening: false,
             focusedData: null,
             loading: true,
-            pageCount: 0,
+            pageNum: 0,
             data: []
         }
     }
 
-    _onTodoFetchd(data) {
+    _onTodoFetched(data) {
         if (!data) {
             this.setState({
                 loading: false,
@@ -34,20 +35,8 @@ export default class List extends React.Component {
         this.setState({
             loading: false,
             data: data
-        }
-        )
-    }
-
-    _addTodosToTail(data) {
-
-        for (let i=0;i<data.length;i++) {
-            if (data.length - i - 1 < 0 || this.state.data.length - i - 1 < 0) {
-                break
-            }
-            if(data[data.length - i - 1].id === this.state.data[this.state.data.length - i - 1].id) {
-                this.state.data[this.state.data.length - i - 1] = data[data.length - i - 1]
-            }
-        }
+        })
+        this._fetchPageCount()
     }
 
     _onTodoStateChanged(todoState) {
@@ -107,6 +96,9 @@ export default class List extends React.Component {
         return (
             <div>
                 <h2>List</h2>
+                <SearchBox 
+                    onSearchFunction={(searchInfo) => this.todoBloc.searchTodo(searchInfo)}
+                />
                 <div style={{ overflow: "auto" }}>
                     {this.state.data ? this.state.data.map((todo) => { return this._todoItem(todo) }) : ""}
                 </div>
@@ -116,7 +108,7 @@ export default class List extends React.Component {
                         })
                         this.todoBloc.fetchTodo(i)
                     }}
-                    getPageCountFunction={() => this.todoBloc.getPageCount()}
+                    pageNum={this.state.pageNum}
                     selectedPageNum={this.todoBloc.getCachedPageNum()} />
                 <Progress loading={this.state.loading} />
                 {this._deleteDialog()}
@@ -157,5 +149,11 @@ export default class List extends React.Component {
             onPositiveSelected={onPositiveSelected}
             title={"以下のデータを削除します。よろしいですか？"}
             texT={this.state.focusedData.outputString()} /> : ""
+    }
+
+    _fetchPageCount() {
+        this.todoBloc.getPageCount().then((count) => this.setState({
+            pageNum: count
+        }))
     }
 }
