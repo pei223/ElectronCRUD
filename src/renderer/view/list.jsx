@@ -1,7 +1,7 @@
 import React from "react";
 // original
 import BlocProvider from "../bloc/BlocProvider";
-import { DELETED, UPDATED } from "../entity/TodoState";
+import { TodoState, StateVal } from "../entity/TodoState";
 import Progress from "./util/progress";
 import TodoCard from "./list/todo_card";
 import SupportDialog from "./util/support_dialog";
@@ -55,13 +55,13 @@ export default class List extends React.Component {
             return
         }
         switch (todoState.state) {
-            case DELETED:
+            case StateVal.DELETED:
                 this.setState({
                     loading: false,
                     data: this.state.data.filter((todo) => todo.id !== todoState.todo.id)
                 })
                 break
-            case UPDATED:
+            case StateVal.UPDATED:
                 let newTodos = this.state.data.concat()
                 let updatedTodoIndex = newTodos.findIndex((todo) => todo.id === todoState.todo.id)
                 if (updatedTodoIndex < 0) {

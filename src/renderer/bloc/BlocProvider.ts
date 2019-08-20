@@ -9,6 +9,9 @@ export default class BlocProvider {
         this.todoBloc = new TodoBloc()
     }
 
+    /**
+     * 後処理
+     */
     public dispose() {
         this.todoBloc.dispose()
     }

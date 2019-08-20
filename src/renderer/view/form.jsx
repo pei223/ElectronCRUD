@@ -7,7 +7,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 // original
 import TodoEntity from "../entity/TodoEntity";
 import BlocProvider from "../bloc/BlocProvider";
-import { ADDED, UPDATED } from "../entity/TodoState";
+import { StateVal } from "../entity/TodoState";
 import Progress from "./util/progress";
 
 
@@ -27,10 +27,10 @@ export default class Form extends React.Component {
     }
 
     _onTodoFinded(todo) {
-        if (todo) {
+        if (todo[0]) {
             this.setState({
-                todoTitle: todo.title,
-                checked: todo.checked,
+                todoTitle: todo[0].title,
+                checked: todo[0].checked,
                 loading: false,
             })
         }
@@ -38,9 +38,9 @@ export default class Form extends React.Component {
 
     _onTodoStateChanged(todoState) {
         switch(todoState.state) {
-            case ADDED:
+            case StateVal.ADDED:
                 this.todoBloc.clearCachedPageNum()
-            case UPDATED:
+            case StateVal.UPDATED:
                 this.props.history.push('/list')
                 break
         }

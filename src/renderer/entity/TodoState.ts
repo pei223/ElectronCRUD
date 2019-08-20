@@ -1,15 +1,17 @@
 import TodoEntity from "./TodoEntity";
 
-export const DELETED: string = "deleted"
-export const UPDATED: string = "updated"
-export const ADDED: string = "added"
-export const ERROR: string = "error"
+export enum StateVal {
+    DELETED,
+    UPDATED,
+    ADDED,
+    ERROR
+}
 
-export default class TodoState{
+export class TodoState{
     todo: TodoEntity;
-    state: string;
+    state: StateVal;
 
-    constructor(todo: TodoEntity, state: string) {
+    constructor(todo: TodoEntity, state: StateVal) {
         this.todo = todo
         this.state = state
     }
