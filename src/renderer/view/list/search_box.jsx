@@ -71,8 +71,7 @@ export default class SearchBox extends React.Component {
                                 inputProps={{
                                     'aria-label': 'primary checkbox',
                                 }}
-                            />
-                        }
+                            />}
                         label="Finished"
                         labelPlacement="start"
                         style={{ textAlign: "center", marginTop: "10px", marginBottom: "10px" }}

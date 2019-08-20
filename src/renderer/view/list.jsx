@@ -20,23 +20,16 @@ export default class List extends React.Component {
             focusedData: null,
             loading: true,
             pageNum: 0,
-            data: []
+            selectedPageNum: this.todoBloc.getCachedPageNum(),
+            data: [],
         }
     }
 
     _onTodoFetched(data) {
-        if (!data) {
-            this.setState({
-                loading: false,
-                data: []
-            })
-            return
-        }
         this.setState({
             loading: false,
-            data: data
+            data: data ? data : []
         })
-        this._fetchPageCount()
     }
 
     _onTodoStateChanged(todoState) {
@@ -85,6 +78,7 @@ export default class List extends React.Component {
         this.todoBloc.todoStream.listen(this.onTodoFetchedCallback)
         this.todoBloc.todoStateStream.listen(this.onTodoStateChangedCallback)
         this.todoBloc.fetchTodo(null)
+        this._fetchPageCount()
     }
 
     componentWillUnmount() {
@@ -96,20 +90,22 @@ export default class List extends React.Component {
         return (
             <div>
                 <h2>List</h2>
-                <SearchBox 
-                    onSearchFunction={(searchInfo) => this.todoBloc.searchTodo(searchInfo)}
-                />
+                <SearchBox onSearchFunction={(searchInfo) => {
+                        this.todoBloc.searchTodo(searchInfo)
+                        this._fetchPageCount()
+                        }} />
                 <div style={{ overflow: "auto" }}>
                     {this.state.data ? this.state.data.map((todo) => { return this._todoItem(todo) }) : ""}
                 </div>
                 <Paging onPageSelected={(i) => {
                         this.setState({
+                            selectedPageNum: i,
                             loading: true
                         })
                         this.todoBloc.fetchTodo(i)
                     }}
                     pageNum={this.state.pageNum}
-                    selectedPageNum={this.todoBloc.getCachedPageNum()} />
+                    selectedPageNum={this.state.selectedPageNum} />
                 <Progress loading={this.state.loading} />
                 {this._deleteDialog()}
             </div>
@@ -128,32 +124,27 @@ export default class List extends React.Component {
     }
 
     _deleteDialog() {
-        let onPositiveSelected = () => {
-            this.setState({
-                deleteDialogOpening: false,
-                loading: true,
-            }
-            )
-            this.todoBloc.deleteTodo(this.state.focusedData.id)
-        }
-        let onClosed = () => {
-            this.setState({
-                deleteDialogOpening: false,
-            }
-            )
-        }
         return this.state.focusedData ? 
         <SupportDialog 
             isDialogOpening={this.state.deleteDialogOpening}
-            onClosed={onClosed}
-            onPositiveSelected={onPositiveSelected}
+            onClosed={() => this.setState({deleteDialogOpening: false})}
+            onPositiveSelected={() => {
+                this.setState({
+                    deleteDialogOpening: false,
+                    loading: true,
+                })
+                this.todoBloc.deleteTodo(this.state.focusedData.id)
+            }}
             title={"以下のデータを削除します。よろしいですか？"}
             texT={this.state.focusedData.outputString()} /> : ""
     }
 
     _fetchPageCount() {
-        this.todoBloc.getPageCount().then((count) => this.setState({
-            pageNum: count
-        }))
+        this.todoBloc.getPageCount().then((count) => {
+            this.setState({
+                pageNum: count,
+                selectedPageNum: this.todoBloc.getCachedPageNum()
+            })
+        })
     }
 }

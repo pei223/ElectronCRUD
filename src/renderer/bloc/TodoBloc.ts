@@ -1,6 +1,6 @@
 import Stream from "./Stream";
 import TodoRepository from "../repository/TodoRepository";
-import {TodoState, StateVal} from "../entity/TodoState";
+import { TodoState, StateVal } from "../entity/TodoState";
 import TodoEntity from "../entity/TodoEntity";
 import SearchInfo from "../entity/SearchInfo";
 
@@ -13,11 +13,11 @@ export default class TodoBloc {
     /**
      * データのリストを流すストリーム
      */
-    todoStream: Stream<Array<TodoEntity>>;
+    todoStream: Stream<Array<TodoEntity>>
     /**
      * 1つのデータの状態を流すストリーム
      */
-    todoStateStream: Stream<TodoState | null>;
+    todoStateStream: Stream<TodoState | null>
 
     /**
      * 保持しているページ数
@@ -50,12 +50,12 @@ export default class TodoBloc {
     }
 
     /**
-     * 指定したページ数のデータリストをtodoStreamに流す.
+     * 保持している検索条件、指定したページ数のデータリストをtodoStreamに流す.
      * @param pageNum ページ数. nullなら保持されているページ数になる. 
      */
     async fetchTodo(pageNum: number) {
         let repo = new TodoRepository()
-        if (pageNum != null) {
+        if (pageNum !== null) {
             this.cachedPageNum = pageNum
         }
         let data: Array<TodoEntity> | null = await repo.read(this.cachedPageNum, DATA_OF_ONE_PAGE, this.cachedSearchInfo)
@@ -69,7 +69,7 @@ export default class TodoBloc {
     async searchTodo(searchInfo: SearchInfo) {
         let repo = new TodoRepository()
         this.cachedSearchInfo = searchInfo
-        this.cachedPageNum = 0
+        this.clearCachedPageNum()
         let data: Array<TodoEntity> | null = await repo.read(0, DATA_OF_ONE_PAGE, searchInfo)
         this.todoStream.stream(data)
     }
@@ -124,7 +124,7 @@ export default class TodoBloc {
     /**
      * 保持しているページ数を返す.
      */
-    getCachedPageNum() : number {
+    getCachedPageNum(): number {
         return this.cachedPageNum
     }
 

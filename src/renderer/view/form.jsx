@@ -42,6 +42,7 @@ export default class Form extends React.Component {
         switch(todoState.state) {
             case StateVal.ADDED:
                 this.todoBloc.clearCachedPageNum()
+                this.todoBloc.clearCachedSearchInfo()
             case StateVal.UPDATED:
                 this.props.history.push('/list')
                 break
