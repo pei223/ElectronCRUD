@@ -181,17 +181,17 @@ export default class TodoRepository {
     private toQuery(searchInfo: SearchInfo): {[key: string]: any} {
         let result = {}
         if (searchInfo.keyword !== null && searchInfo.keyword !== "") {
-            result["title"] = "/" + searchInfo.keyword + "/"
+            result["title"] = new RegExp(searchInfo.keyword)
         }
         if (searchInfo.checked !== null) {
             result["checked"] = searchInfo.checked
         }
         let createdAtQuery = {}
         if (searchInfo.startDate !== null) {
-            createdAtQuery["$gte"] = searchInfo.startDate
+            createdAtQuery["$gte"] = searchInfo.startDate.getTime()
         }
         if (searchInfo.endDate !== null) {
-            createdAtQuery["$lte"] = searchInfo.endDate
+            createdAtQuery["$lte"] = searchInfo.endDate.getTime()
         }
         if (Object.keys(createdAtQuery).length !== 0) {
             result["createdAt"] = createdAtQuery

@@ -12,17 +12,21 @@ import SearchInfo from '../../entity/SearchInfo'
 export default class SearchBox extends React.Component {
     constructor(props) {
         super(props)
+        this.state = this._initState()
+    }
+
+    _initState() {
         let now = new Date()
         let start = new Date()
         start.setMonth(now.getMonth() - 1)
         let end = new Date()
         end.setMonth(now.getMonth() + 1)
-        this.state = {
+        return {
             opening: false,
             checked: false,
             keyword: "",
-            startDate: start.getTime(),
-            endDate: end.getTime(),
+            startDate: this._formatDate(start),
+            endDate: this._formatDate(end),
         }
     }
 
@@ -82,12 +86,16 @@ export default class SearchBox extends React.Component {
                         id="datetime-local"
                         label="start date"
                         type="datetime-local"
-                        defaultValue={this._formatDate(this.state.startDate)}
+                        defaultValue={this.state.startDate}
                         InputLabelProps={{
                             shrink: true,
                         }}
-                        onChange={(date) => {
-                            this.setState({ startDate: date === null || !(date.getTime instanceof Function) ? null : date.getTime() })
+                        value={this.state.startDate}
+                        onChange={(e) => {
+                            let date = e.target.value
+                            this.setState({
+                                startDate : date
+                             })
                         }}
                         style={{
                             marginRight: "20px"
@@ -97,12 +105,16 @@ export default class SearchBox extends React.Component {
                         id="datetime-local"
                         label="end date"
                         type="datetime-local"
-                        defaultValue={this._formatDate(this.state.endDate)}
+                        defaultValue={this.state.endDate}
+                        value={this.state.endDate}
                         InputLabelProps={{
                             shrink: true,
                         }}
-                        onChange={(date) => {
-                            this.setState({ endDate: date === null || !(date.getTime instanceof Function) ? null : date.getTime() })
+                        onChange={(e) => {
+                            let date = e.target.value
+                            this.setState({ 
+                                endDate: date
+                            })
                         }}
                     />
                 </div>
@@ -116,6 +128,10 @@ export default class SearchBox extends React.Component {
                         }}>
                         <Icon>search</Icon>{"　Search"}
                     </Fab>
+                    <Fab color="secondary" variant="extended" aria-label="delete" onClick={() => this._onClearClicked()} 
+                         style={{ color: "white", backgroundColor: "#f44336", marginLeft: "15px" }}>
+                        <Icon>close</Icon>{"　Clear"}
+                    </Fab>
                 </div>
             </div>
         </Drawer>
@@ -128,15 +144,19 @@ export default class SearchBox extends React.Component {
     }
 
     _onSearchClicked() {
-        this._toggleDrawer(false)
-        let searchInfo = new SearchInfo(this.state.keyword, this.state.checked, this.state.startDate, this.state.endDate)
+        let searchInfo = new SearchInfo(this.state.keyword, this.state.checked, this._parseDate(this.state.startDate), this._parseDate(this.state.endDate))
         this.props.onSearchFunction(searchInfo)
+        this._toggleDrawer(false)
     }
 
-    _formatDate(dateNumber) {
-        let date = new Date()
-        date.setTime(dateNumber)
-        if (!(date.getTime instanceof Function) || isNaN(date.getTime())) {
+    _onClearClicked() {
+        this.props.onSearchFunction(null)
+        this.setState(this._initState())
+        this._toggleDrawer(false)
+    }
+
+    _formatDate(date) {
+        if (date === null || !(date.getTime instanceof Function) || isNaN(date.getTime())) {
             return ""
         }
         return date.getFullYear() + "-" + this._fixTo2digit(date.getMonth() + 1) + "-" + this._fixTo2digit(date.getDate()) + "T" + this._fixTo2digit(date.getHours())
@@ -145,5 +165,26 @@ export default class SearchBox extends React.Component {
 
     _fixTo2digit(numStr) {
         return ("00" + numStr).substr(-2)
+    }
+
+    _parseDate(dateStr) {
+        try {
+            let date = new Date()
+            date.setSeconds(0)
+    
+            let field = dateStr.split("T")
+            let dateField = field[0].split("-")
+            let timeField = field[1].split(":")
+    
+            date.setFullYear(parseInt(dateField[0]))
+            date.setMonth(parseInt(dateField[1])-1)
+            date.setDate(parseInt(dateField[2]))
+            date.setHours(parseInt(timeField[0]))
+            date.setMinutes(parseInt(timeField[1]))
+            return date
+        } catch(e) {
+            console.log(e)
+            return null
+        }
     }
 }
