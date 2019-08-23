@@ -1,6 +1,9 @@
 import TodoBloc from "./TodoBloc";
 
 export default class BlocProvider {
+    /*
+     * TODO 必要なBlocの追加 
+     */
     todoBloc: TodoBloc;
 
     private static _instance: BlocProvider;

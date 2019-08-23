@@ -7,6 +7,9 @@ export enum StateVal {
     ERROR
 }
 
+/**
+ * TODO 扱うデータに合わせる. Entitiyだけ差し替えれば良い
+ */
 export class TodoState{
     todo: TodoEntity;
     state: StateVal;

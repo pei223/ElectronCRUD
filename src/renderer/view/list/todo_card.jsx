@@ -5,6 +5,7 @@ import Checkbox from '@material-ui/core/Checkbox';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 
 
+// TODO データによって表示内容修正
 export default class TodoCard extends React.Component {
     constructor(props) {
         super(props)
@@ -17,7 +18,7 @@ export default class TodoCard extends React.Component {
                     control={
                         <Checkbox
                             checked={this.props.todo.checked}
-                            onChange={() => this.props.onChange(this.props.todo)}
+                            onChange={() => {this.props.todo.checked = !this.props.todo.checked; this.props.onChange(this.props.todo)}}
                             inputProps={{
                                 'aria-label': 'primary checkbox',
                             }}

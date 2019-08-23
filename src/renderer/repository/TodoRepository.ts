@@ -4,9 +4,13 @@ const remote = require('electron').remote;
 const todoDb = remote.getGlobal('todoDb');
 
 
+/**
+ * TODO 扱うデータによって食わせるデータを修正
+ */
 export default class TodoRepository {
     /**
      * データを登録して非同期でデータを返す. 
+     * @TODO 扱うデータに合わせる.  
      * @param newTodo 登録したいデータ
      */
     public async create(newTodo: TodoEntity): Promise<TodoEntity | null> {
@@ -97,6 +101,7 @@ export default class TodoRepository {
 
     /**
      * データを更新する. 更新後、更新したデータを非同期で返す. 
+     * TODO 扱うデータに合わせる.  
      * @param todo 更新したいデータ
      */
     public async update(todo: TodoEntity): Promise<TodoEntity | null> {
@@ -140,6 +145,7 @@ export default class TodoRepository {
 
     /**
      * DBのデータをパースして返す. 
+     * TODO 扱うデータに合わせる.
      * @param objects 
      */
     private parseTodoList(objects: Array<any>): Array<TodoEntity> {
@@ -176,6 +182,7 @@ export default class TodoRepository {
 
     /**
      * 検索情報をDBで使えるクエリに変換する
+     * TODO 扱うデータに合わせる
      * @param searchInfo 検索情報
      */
     private toQuery(searchInfo: SearchInfo): {[key: string]: any} {

@@ -11,7 +11,9 @@ import orange from '@material-ui/core/colors/orange';
 import List from './view/list';
 import Form from './view/form';
 
-
+/**
+ * TODO アプリ全体のメインカラーなど設定
+ */
 const theme = createMuiTheme({
     palette: {
         primary: {
@@ -27,6 +29,9 @@ const theme = createMuiTheme({
     },
 });
 
+/**
+ * TODO 必要なメニューを追加・文言修正
+ */
 const appRouting = (
     <BrowserRouter>
         <MuiThemeProvider theme={theme}>

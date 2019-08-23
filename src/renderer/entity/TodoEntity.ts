@@ -1,3 +1,7 @@
+/**
+ * アプリ全域で使うデータのクラス.
+ * TODO 扱うデータに合わせる
+ */
 export default class TodoEntity {
     id: number
     title: string

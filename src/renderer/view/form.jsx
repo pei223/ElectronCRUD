@@ -10,7 +10,7 @@ import BlocProvider from "../bloc/BlocProvider";
 import { StateVal } from "../entity/TodoState";
 import Progress from "./util/progress";
 
-
+// TODO データによってフォーム・stateを変更.
 export default class Form extends React.Component {
     constructor(props) {
         super(props)

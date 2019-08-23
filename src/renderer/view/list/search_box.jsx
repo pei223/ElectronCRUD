@@ -9,12 +9,16 @@ import Fab from '@material-ui/core/Fab'
 import SearchInfo from '../../entity/SearchInfo'
 
 
+// TODO データによってフォーム・stateを変更
 export default class SearchBox extends React.Component {
     constructor(props) {
         super(props)
         this.state = this._initState()
     }
 
+    /**
+     * TODO 扱うデータによって修正
+     */
     _initState() {
         let now = new Date()
         let start = new Date()
@@ -39,6 +43,9 @@ export default class SearchBox extends React.Component {
         )
     }
 
+    /**
+     * 検索ボックスボタン. タップするとドロワー表示の検索ボックスが表示される. 
+     */
     _searchBoxButton() {
         return (
             <Fab color="secondary" variant="extended" aria-label="delete" onClick={() => this._toggleDrawer(true)} 
@@ -52,12 +59,26 @@ export default class SearchBox extends React.Component {
         )
     }
 
+    /**
+     * ドロワー表示部分.
+     */
     _drawer() {
         return <Drawer anchor="top" open={this.state.opening} onClose={() => this._toggleDrawer(false)}>
             <div style={{
                 margin: "30px",
             }}>
-                <div style={{
+                {this._searchForm()}
+            </div>
+        </Drawer>
+    }
+
+    /**
+     * 検索ボックスのフォーム.
+     * TODO 扱うデータによって修正
+     */
+    _searchForm() {
+        return <div>
+            <div style={{
                     marginBottom: "15px",
                 }}>
                     <TextField fullWidth label="keyword" onChange={(e) => this.setState({ keyword: e.target.value })} value={this.state.keyword}
@@ -133,8 +154,7 @@ export default class SearchBox extends React.Component {
                         <Icon>close</Icon>{"　Clear"}
                     </Fab>
                 </div>
-            </div>
-        </Drawer>
+        </div>
     }
 
     _toggleDrawer(open) {
@@ -143,6 +163,9 @@ export default class SearchBox extends React.Component {
         })
     }
 
+    /**
+     * TODO 検索情報に渡すデータ
+     */
     _onSearchClicked() {
         let searchInfo = new SearchInfo(this.state.keyword, this.state.checked, this._parseDate(this.state.startDate), this._parseDate(this.state.endDate))
         this.props.onSearchFunction(searchInfo)

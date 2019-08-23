@@ -1,3 +1,7 @@
+/**
+ * 検索処理に必要な情報.
+ * TODO 扱うデータに合わせる
+ */
 export default class SearchInfo {
     keyword: string
     checked: boolean

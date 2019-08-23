@@ -9,6 +9,10 @@ import SearchInfo from "../entity/SearchInfo";
  */
 const DATA_OF_ONE_PAGE: number = 2
 
+/**
+ * ビジネスロジッククラス.
+ * TODO 扱うデータに合わせる. 型だけ差し替えるのみでいい. 
+ */
 export default class TodoBloc {
     /**
      * データのリストを流すストリーム
