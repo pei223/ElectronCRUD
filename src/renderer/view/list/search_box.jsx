@@ -37,7 +37,7 @@ export default class SearchBox extends React.Component {
     render() {
         return (
             <div>
-                {this._searchBoxButton()}
+                {this._buttonsRow()}
                 {this._drawer()}
             </div>
         )
@@ -46,16 +46,22 @@ export default class SearchBox extends React.Component {
     /**
      * 検索ボックスボタン. タップするとドロワー表示の検索ボックスが表示される. 
      */
-    _searchBoxButton() {
+    _buttonsRow() {
         return (
-            <Fab color="secondary" variant="extended" aria-label="delete" onClick={() => this._toggleDrawer(true)} 
-                style={{
-                    color: "white",
-                    marginTop: "20px",
-                    marginBottom: "20px",
-                }} >
-                <Icon>search</Icon>{"　Search box"}
-            </Fab>
+            <div>
+                <Fab color="secondary" variant="extended" aria-label="delete" onClick={() => this._toggleDrawer(true)} 
+                    style={{
+                        color: "white",
+                        marginTop: "20px",
+                        marginBottom: "20px",
+                    }} >
+                    <Icon>search</Icon>{"　Search box"}
+                </Fab>
+                <Fab color="secondary" variant="extended" aria-label="delete" onClick={() => this._onClearClicked()} 
+                    style={{ color: "white", backgroundColor: "#f44336", marginLeft: "15px" }}>
+                    <Icon>close</Icon>{"　Clear"}
+                </Fab>
+            </div>
         )
     }
 
@@ -148,10 +154,6 @@ export default class SearchBox extends React.Component {
                             color: "white",
                         }}>
                         <Icon>search</Icon>{"　Search"}
-                    </Fab>
-                    <Fab color="secondary" variant="extended" aria-label="delete" onClick={() => this._onClearClicked()} 
-                         style={{ color: "white", backgroundColor: "#f44336", marginLeft: "15px" }}>
-                        <Icon>close</Icon>{"　Clear"}
                     </Fab>
                 </div>
         </div>

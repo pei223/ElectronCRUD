@@ -3,11 +3,7 @@ import TodoRepository from "../repository/TodoRepository";
 import { TodoState, StateVal } from "../entity/TodoState";
 import TodoEntity from "../entity/TodoEntity";
 import SearchInfo from "../entity/SearchInfo";
-
-/**
- * 1ページに表示するデータ数
- */
-const DATA_OF_ONE_PAGE: number = 2
+import BlocProvider from "./BlocProvider";
 
 /**
  * ビジネスロジッククラス.
@@ -62,7 +58,7 @@ export default class TodoBloc {
         if (pageNum !== null) {
             this.cachedPageNum = pageNum
         }
-        let data: Array<TodoEntity> | null = await repo.read(this.cachedPageNum, DATA_OF_ONE_PAGE, this.cachedSearchInfo)
+        let data: Array<TodoEntity> | null = await repo.read(this.cachedPageNum, this.getOnePageDataNum(), this.cachedSearchInfo)
         this.todoStream.stream(data)
     }
 
@@ -74,7 +70,7 @@ export default class TodoBloc {
         let repo = new TodoRepository()
         this.cachedSearchInfo = searchInfo
         this.clearCachedPageNum()
-        let data: Array<TodoEntity> | null = await repo.read(0, DATA_OF_ONE_PAGE, searchInfo)
+        let data: Array<TodoEntity> | null = await repo.read(0, this.getOnePageDataNum(), searchInfo)
         this.todoStream.stream(data)
     }
 
@@ -122,7 +118,7 @@ export default class TodoBloc {
     async getPageCount(): Promise<number> {
         let repo = new TodoRepository()
         let count: number = await repo.count(this.cachedSearchInfo)
-        return Math.ceil(count / DATA_OF_ONE_PAGE)
+        return Math.ceil(count / this.getOnePageDataNum())
     }
 
     /**
@@ -149,5 +145,9 @@ export default class TodoBloc {
     dispose() {
         this.todoStream.deleteAll()
         this.todoStateStream.deleteAll()
+    }
+
+    private getOnePageDataNum(): number {
+        return BlocProvider.getInstance().settingBloc.getAppData().onePageDataNum
     }
 }

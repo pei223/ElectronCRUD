@@ -93,18 +93,14 @@ export default class Form extends React.Component {
                     InputProps={{
                         startAdornment: (
                             <span><Icon position="start">edit</Icon>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                        ),
-                    }}
+                        )}}
                     autoFocus={true} />
                 <FormControlLabel
                     control={
                         <Checkbox
                             checked={this.state.checked}
                             onChange={(e) => this.setState({ checked: e.target.checked })}
-                            inputProps={{
-                                'aria-label': 'primary checkbox',
-                            }}
-                        />
+                            inputProps={{'aria-label': 'primary checkbox',}} />
                     }
                     label="Finished"
                     labelPlacement="start"

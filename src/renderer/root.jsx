@@ -10,6 +10,7 @@ import orange from '@material-ui/core/colors/orange';
 // original
 import List from './view/list';
 import Form from './view/form';
+import Setting from './view/setting';
 
 /**
  * TODO アプリ全体のメインカラーなど設定
@@ -45,12 +46,14 @@ const appRouting = (
             <div className="sidemenu">
                 <p className="sidemenu-link"><Link className="sidemenu-link-text" to="/list">List</Link></p>
                 <p className="sidemenu-link"><Link className="sidemenu-link-text" to="/form">New</Link></p>
+                <p className="sidemenu-link"><Link className="sidemenu-link-text" to="/setting">Setting</Link></p>
             </div>
             <div className="content" style={{ paddingTop: "56px" }}>
                 <Switch>
                     <Route path="/list" component={List} />
                     <Route path="/form:id" render={(props) => <Form {...props} />} />
                     <Route path="/form" component={Form} />
+                    <Route path="/setting" component={Setting} />
                     <Redirect to="/list" />
                 </Switch>
             </div>

@@ -1,15 +1,18 @@
 import TodoBloc from "./TodoBloc";
+import SettingBloc from "./SettingBloc";
 
 export default class BlocProvider {
     /*
      * TODO 必要なBlocの追加 
      */
     todoBloc: TodoBloc;
+    settingBloc: SettingBloc;
 
     private static _instance: BlocProvider;
 
     private constructor() {
         this.todoBloc = new TodoBloc()
+        this.settingBloc = new SettingBloc()
     }
 
     /**
@@ -17,6 +20,7 @@ export default class BlocProvider {
      */
     public dispose() {
         this.todoBloc.dispose()
+        this.settingBloc.dispose()
     }
 
     public static getInstance(): BlocProvider {
