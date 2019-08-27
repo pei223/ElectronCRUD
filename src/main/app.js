@@ -22,6 +22,9 @@ function createWindow() {
     width: 900,
     height: 700,
   });
+  // 開発者ツール無効
+  // win.webContents.on("devtools-opened", () => { win.webContents.closeDevTools(); });
+
   win.loadURL(`file://${__dirname}/../index.html`);
   win.on("close", () => {
     win = null;

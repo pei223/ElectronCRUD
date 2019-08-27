@@ -1,0 +1,3707 @@
+{
+  "@babel/runtime@7.5.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-runtime",
+    "publisher": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@babel/runtime",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@babel/runtime/LICENSE"
+  },
+  "@emotion/hash@0.7.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/emotion-js/emotion/tree/master/packages/hash",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@emotion/hash",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@emotion/hash/README.md"
+  },
+  "@material-ui/core@4.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mui-org/material-ui",
+    "publisher": "Material-UI Team",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@material-ui/core",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@material-ui/core/LICENSE"
+  },
+  "@material-ui/icons@4.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mui-org/material-ui",
+    "publisher": "Material-UI Team",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@material-ui/icons",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@material-ui/icons/LICENSE"
+  },
+  "@material-ui/styles@4.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mui-org/material-ui",
+    "publisher": "Material-UI Team",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@material-ui/styles",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@material-ui/styles/LICENSE"
+  },
+  "@material-ui/system@4.3.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mui-org/material-ui",
+    "publisher": "Material-UI Team",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@material-ui/system",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@material-ui/system/LICENSE"
+  },
+  "@material-ui/types@4.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mui-org/material-ui",
+    "publisher": "Material-UI Team",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@material-ui/types",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@material-ui/types/README.md"
+  },
+  "@material-ui/utils@4.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mui-org/material-ui",
+    "publisher": "Material-UI Team",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@material-ui/utils",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@material-ui/utils/LICENSE"
+  },
+  "@types/prop-types@15.7.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@types/prop-types",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@types/prop-types/LICENSE"
+  },
+  "@types/react-transition-group@4.2.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@types/react-transition-group",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@types/react-transition-group/LICENSE"
+  },
+  "@types/react@16.9.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@types/react",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@types/react/LICENSE"
+  },
+  "abbrev@1.1.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/abbrev-js",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/abbrev",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/abbrev/LICENSE"
+  },
+  "ajv@6.10.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/ajv",
+    "publisher": "Evgeny Poberezkin",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ajv",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ajv/LICENSE"
+  },
+  "ansi-regex@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ansi-regex",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ansi-regex/license"
+  },
+  "ansi-regex@4.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ora/node_modules/ansi-regex",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ora/node_modules/ansi-regex/license"
+  },
+  "ansi-styles@2.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-styles",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ansi-styles",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ansi-styles/license"
+  },
+  "ansi-styles@3.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-styles",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ora/node_modules/ansi-styles",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ora/node_modules/ansi-styles/license"
+  },
+  "anymatch@1.3.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/es128/anymatch",
+    "publisher": "Elan Shanker",
+    "url": "http://github.com/es128",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/anymatch",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/anymatch/LICENSE"
+  },
+  "aproba@1.2.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/iarna/aproba",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/aproba",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/aproba/LICENSE"
+  },
+  "are-we-there-yet@1.1.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/iarna/are-we-there-yet",
+    "publisher": "Rebecca Turner",
+    "url": "http://re-becca.org",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/are-we-there-yet",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/are-we-there-yet/LICENSE"
+  },
+  "arr-diff@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/arr-diff",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/arr-diff",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/arr-diff/LICENSE"
+  },
+  "arr-diff@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/arr-diff",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp/node_modules/arr-diff",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp/node_modules/arr-diff/LICENSE"
+  },
+  "arr-flatten@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/arr-flatten",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/arr-flatten",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/arr-flatten/LICENSE"
+  },
+  "arr-union@3.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/arr-union",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/arr-union",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/arr-union/LICENSE"
+  },
+  "array-find-index@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/array-find-index",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/array-find-index",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/array-find-index/license"
+  },
+  "array-unique@0.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/array-unique",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/array-unique",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/array-unique/LICENSE"
+  },
+  "array-unique@0.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/array-unique",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp/node_modules/array-unique",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp/node_modules/array-unique/LICENSE"
+  },
+  "asap@2.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kriskowal/asap",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/asap",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/asap/LICENSE.md"
+  },
+  "asn1@0.2.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/joyent/node-asn1",
+    "publisher": "Joyent",
+    "url": "joyent.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/asn1",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/asn1/LICENSE"
+  },
+  "assert-plus@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mcavage/node-assert-plus",
+    "publisher": "Mark Cavage",
+    "email": "mcavage@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/assert-plus",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/assert-plus/README.md"
+  },
+  "assign-symbols@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/assign-symbols",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/assign-symbols",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/assign-symbols/LICENSE"
+  },
+  "async-each@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/paulmillr/async-each",
+    "publisher": "Paul Miller",
+    "url": "https://paulmillr.com/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/async-each",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/async-each/README.md"
+  },
+  "async@0.2.10": {
+    "licenses": "MIT",
+    "repository": "https://github.com/caolan/async",
+    "publisher": "Caolan McMahon",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/async",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/async/LICENSE"
+  },
+  "asynckit@0.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/alexindigo/asynckit",
+    "publisher": "Alex Indigo",
+    "email": "iam@alexindigo.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/asynckit",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/asynckit/LICENSE"
+  },
+  "atob@2.1.2": {
+    "licenses": "(MIT OR Apache-2.0)",
+    "repository": "git://git.coolaj86.com/coolaj86/atob.js",
+    "publisher": "AJ ONeal",
+    "email": "coolaj86@gmail.com",
+    "url": "https://coolaj86.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/atob",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/atob/LICENSE"
+  },
+  "aws-sign2@0.7.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/mikeal/aws-sign",
+    "publisher": "Mikeal Rogers",
+    "email": "mikeal.rogers@gmail.com",
+    "url": "http://www.futurealoof.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/aws-sign2",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/aws-sign2/LICENSE"
+  },
+  "aws4@1.8.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mhart/aws4",
+    "publisher": "Michael Hart",
+    "email": "michael.hart.au@gmail.com",
+    "url": "http://github.com/mhart",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/aws4",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/aws4/LICENSE"
+  },
+  "babel-cli@6.26.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-cli",
+    "publisher": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-cli",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-cli/README.md"
+  },
+  "babel-code-frame@6.26.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-code-frame",
+    "publisher": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-code-frame",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-code-frame/README.md"
+  },
+  "babel-core@6.26.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-core",
+    "publisher": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-core",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-core/README.md"
+  },
+  "babel-generator@6.26.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-generator",
+    "publisher": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-generator",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-generator/README.md"
+  },
+  "babel-helper-builder-binary-assignment-operator-visitor@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-builder-binary-assignment-operator-visitor",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-builder-binary-assignment-operator-visitor/README.md"
+  },
+  "babel-helper-call-delegate@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-helper-call-delegate",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-call-delegate",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-call-delegate/README.md"
+  },
+  "babel-helper-define-map@6.26.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-helper-define-map",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-define-map",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-define-map/README.md"
+  },
+  "babel-helper-explode-assignable-expression@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-helper-explode-assignable-expression",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-explode-assignable-expression",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-explode-assignable-expression/README.md"
+  },
+  "babel-helper-function-name@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-helper-function-name",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-function-name",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-function-name/README.md"
+  },
+  "babel-helper-get-function-arity@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-helper-get-function-arity",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-get-function-arity",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-get-function-arity/README.md"
+  },
+  "babel-helper-hoist-variables@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-helper-hoist-variables",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-hoist-variables",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-hoist-variables/README.md"
+  },
+  "babel-helper-optimise-call-expression@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-helper-optimise-call-expression",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-optimise-call-expression",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-optimise-call-expression/README.md"
+  },
+  "babel-helper-regex@6.26.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-helper-regex",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-regex",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-regex/README.md"
+  },
+  "babel-helper-remap-async-to-generator@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-helper-remap-async-to-generator",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-remap-async-to-generator",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-remap-async-to-generator/README.md"
+  },
+  "babel-helper-replace-supers@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-helper-replace-supers",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-replace-supers",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helper-replace-supers/README.md"
+  },
+  "babel-helpers@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-helpers",
+    "publisher": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helpers",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-helpers/README.md"
+  },
+  "babel-messages@6.23.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-messages",
+    "publisher": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-messages",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-messages/README.md"
+  },
+  "babel-plugin-check-es2015-constants@6.22.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-check-es2015-constants",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-check-es2015-constants",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-check-es2015-constants/README.md"
+  },
+  "babel-plugin-syntax-async-functions@6.13.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-functions",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-syntax-async-functions",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-syntax-async-functions/README.md"
+  },
+  "babel-plugin-syntax-exponentiation-operator@6.13.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-exponentation-operator",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-syntax-exponentiation-operator",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-syntax-exponentiation-operator/README.md"
+  },
+  "babel-plugin-syntax-trailing-function-commas@6.22.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-trailing-function-commas",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-syntax-trailing-function-commas",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-syntax-trailing-function-commas/README.md"
+  },
+  "babel-plugin-transform-async-to-generator@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-async-to-generator",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-async-to-generator",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-async-to-generator/README.md"
+  },
+  "babel-plugin-transform-es2015-arrow-functions@6.22.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-arrow-functions",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-arrow-functions",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-arrow-functions/README.md"
+  },
+  "babel-plugin-transform-es2015-block-scoped-functions@6.22.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoped-functions",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-block-scoped-functions",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-block-scoped-functions/README.md"
+  },
+  "babel-plugin-transform-es2015-block-scoping@6.26.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-block-scoping",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-block-scoping/README.md"
+  },
+  "babel-plugin-transform-es2015-classes@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-classes",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-classes",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-classes/README.md"
+  },
+  "babel-plugin-transform-es2015-computed-properties@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-computed-properties",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-computed-properties",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-computed-properties/README.md"
+  },
+  "babel-plugin-transform-es2015-destructuring@6.23.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-destructuring",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-destructuring",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-destructuring/README.md"
+  },
+  "babel-plugin-transform-es2015-duplicate-keys@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-duplicate-keys",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-duplicate-keys",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-duplicate-keys/README.md"
+  },
+  "babel-plugin-transform-es2015-for-of@6.23.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-for-of",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-for-of",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-for-of/README.md"
+  },
+  "babel-plugin-transform-es2015-function-name@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-function-name",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-function-name",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-function-name/README.md"
+  },
+  "babel-plugin-transform-es2015-literals@6.22.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-literals",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-literals",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-literals/README.md"
+  },
+  "babel-plugin-transform-es2015-modules-amd@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-modules-amd",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-modules-amd",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-modules-amd/README.md"
+  },
+  "babel-plugin-transform-es2015-modules-commonjs@6.26.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-modules-commonjs",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-modules-commonjs",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-modules-commonjs/README.md"
+  },
+  "babel-plugin-transform-es2015-modules-systemjs@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-modules-systemjs",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-modules-systemjs",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-modules-systemjs/README.md"
+  },
+  "babel-plugin-transform-es2015-modules-umd@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-modules-umd",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-modules-umd",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-modules-umd/README.md"
+  },
+  "babel-plugin-transform-es2015-object-super@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-object-super",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-object-super",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-object-super/README.md"
+  },
+  "babel-plugin-transform-es2015-parameters@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-parameters",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-parameters",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-parameters/README.md"
+  },
+  "babel-plugin-transform-es2015-shorthand-properties@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-shorthand-properties",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-shorthand-properties",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-shorthand-properties/README.md"
+  },
+  "babel-plugin-transform-es2015-spread@6.22.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-spread",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-spread",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-spread/README.md"
+  },
+  "babel-plugin-transform-es2015-sticky-regex@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-sticky-regex",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-sticky-regex",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-sticky-regex/README.md"
+  },
+  "babel-plugin-transform-es2015-template-literals@6.22.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-template-literals",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-template-literals",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-template-literals/README.md"
+  },
+  "babel-plugin-transform-es2015-typeof-symbol@6.23.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-typeof-symbol",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-typeof-symbol",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-typeof-symbol/README.md"
+  },
+  "babel-plugin-transform-es2015-unicode-regex@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-unicode-regex",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-unicode-regex",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-es2015-unicode-regex/README.md"
+  },
+  "babel-plugin-transform-exponentiation-operator@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-exponentiation-operator",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-exponentiation-operator",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-exponentiation-operator/README.md"
+  },
+  "babel-plugin-transform-regenerator@6.26.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-regenerator",
+    "publisher": "Ben Newman",
+    "email": "bn@cs.stanford.edu",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-regenerator",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-regenerator/README.md"
+  },
+  "babel-plugin-transform-strict-mode@6.24.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-strict-mode",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-strict-mode",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-plugin-transform-strict-mode/README.md"
+  },
+  "babel-polyfill@6.26.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-polyfill",
+    "publisher": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-polyfill",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-polyfill/README.md"
+  },
+  "babel-preset-env@1.7.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel-preset-env",
+    "publisher": "Henry Zhu",
+    "email": "hi@henryzoo.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-preset-env",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-preset-env/LICENSE"
+  },
+  "babel-register@6.26.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-register",
+    "publisher": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-register",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-register/README.md"
+  },
+  "babel-runtime@6.26.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-runtime",
+    "publisher": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-runtime",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-runtime/README.md"
+  },
+  "babel-template@6.26.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-template",
+    "publisher": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-template",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-template/README.md"
+  },
+  "babel-traverse@6.26.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-traverse",
+    "publisher": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-traverse",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-traverse/README.md"
+  },
+  "babel-types@6.26.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel/tree/master/packages/babel-types",
+    "publisher": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-types",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-types/README.md"
+  },
+  "babylon@6.18.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babylon",
+    "publisher": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babylon",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babylon/LICENSE"
+  },
+  "balanced-match@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/balanced-match",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/balanced-match",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/balanced-match/LICENSE.md"
+  },
+  "base@0.11.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/node-base/base",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/base",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/base/LICENSE"
+  },
+  "bcrypt-pbkdf@1.0.2": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/joyent/node-bcrypt-pbkdf",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/bcrypt-pbkdf",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/bcrypt-pbkdf/LICENSE"
+  },
+  "binary-extensions@1.13.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/binary-extensions",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/binary-extensions",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/binary-extensions/license"
+  },
+  "binary-search-tree@0.2.5": {
+    "licenses": "MIT*",
+    "repository": "https://github.com/louischatriot/node-binary-search-tree",
+    "publisher": "Louis Chatriot",
+    "email": "louis.chatriot@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/binary-search-tree",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/binary-search-tree/README.md"
+  },
+  "brace-expansion@1.1.11": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/brace-expansion",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/brace-expansion",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/brace-expansion/LICENSE"
+  },
+  "braces@1.8.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/braces",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/braces",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/braces/LICENSE"
+  },
+  "braces@2.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/braces",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp/node_modules/braces",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp/node_modules/braces/LICENSE"
+  },
+  "browserslist@3.2.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/browserslist/browserslist",
+    "publisher": "Andrey Sitnik",
+    "email": "andrey@sitnik.ru",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-preset-env/node_modules/browserslist",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-preset-env/node_modules/browserslist/LICENSE"
+  },
+  "cache-base@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/cache-base",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/cache-base",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/cache-base/LICENSE"
+  },
+  "camelcase@5.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/camelcase",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/camelcase",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/camelcase/license"
+  },
+  "caniuse-lite@1.0.30000989": {
+    "licenses": "CC-BY-4.0",
+    "repository": "https://github.com/ben-eb/caniuse-lite",
+    "publisher": "Ben Briggs",
+    "email": "beneb.info@gmail.com",
+    "url": "http://beneb.info",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/caniuse-lite",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/caniuse-lite/LICENSE"
+  },
+  "caseless@0.12.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/mikeal/caseless",
+    "publisher": "Mikeal Rogers",
+    "email": "mikeal.rogers@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/caseless",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/caseless/LICENSE"
+  },
+  "chalk@1.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/chalk",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/chalk",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/chalk/license"
+  },
+  "chalk@2.4.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/chalk",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ora/node_modules/chalk",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ora/node_modules/chalk/license"
+  },
+  "chokidar@1.7.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/paulmillr/chokidar",
+    "publisher": "Paul Miller",
+    "url": "http://paulmillr.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/chokidar",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/chokidar/README.md"
+  },
+  "chownr@1.1.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/chownr",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/chownr",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/chownr/LICENSE"
+  },
+  "chownr@1.1.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/chownr",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/chownr",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/chownr/LICENSE"
+  },
+  "class-utils@0.3.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/class-utils",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/class-utils",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/class-utils/LICENSE"
+  },
+  "cli-cursor@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/cli-cursor",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/cli-cursor",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/cli-cursor/license"
+  },
+  "cli-spinners@2.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/cli-spinners",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/cli-spinners",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/cli-spinners/license"
+  },
+  "cliui@5.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/cliui",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/cliui",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/cliui/LICENSE.txt"
+  },
+  "clone@1.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/pvorb/node-clone",
+    "publisher": "Paul Vorbach",
+    "email": "paul@vorba.ch",
+    "url": "http://paul.vorba.ch/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/clone",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/clone/LICENSE"
+  },
+  "clsx@1.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukeed/clsx",
+    "publisher": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "lukeed.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/clsx",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/clsx/license"
+  },
+  "code-point-at@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/code-point-at",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/code-point-at",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/code-point-at/license"
+  },
+  "collection-visit@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/collection-visit",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/collection-visit",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/collection-visit/LICENSE"
+  },
+  "color-convert@1.9.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Qix-/color-convert",
+    "publisher": "Heather Arthur",
+    "email": "fayearthur@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/color-convert",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/color-convert/LICENSE"
+  },
+  "color-name@1.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/dfcreative/color-name",
+    "publisher": "DY",
+    "email": "dfcreative@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/color-name",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/color-name/LICENSE"
+  },
+  "colors@1.3.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Marak/colors.js",
+    "publisher": "Marak Squires",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/colors",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/colors/LICENSE"
+  },
+  "combined-stream@1.0.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/felixge/node-combined-stream",
+    "publisher": "Felix Geisendörfer",
+    "email": "felix@debuggable.com",
+    "url": "http://debuggable.com/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/combined-stream",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/combined-stream/License"
+  },
+  "commander@2.20.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tj/commander.js",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/commander",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/commander/LICENSE"
+  },
+  "component-emitter@1.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/component/emitter",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/component-emitter",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/component-emitter/LICENSE"
+  },
+  "concat-map@0.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/node-concat-map",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/concat-map",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/concat-map/LICENSE"
+  },
+  "console-control-strings@1.1.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/iarna/console-control-strings",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/console-control-strings",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/console-control-strings/LICENSE"
+  },
+  "convert-css-length@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/KyleAMathews/convert-css-length",
+    "publisher": "Kyle Mathews",
+    "email": "mathews.kyle@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/convert-css-length",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/convert-css-length/LICENSE"
+  },
+  "convert-source-map@1.6.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/thlorenz/convert-source-map",
+    "publisher": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/convert-source-map",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/convert-source-map/LICENSE"
+  },
+  "copy-descriptor@0.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/copy-descriptor",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/copy-descriptor",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/copy-descriptor/LICENSE"
+  },
+  "core-js@2.6.9": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zloirock/core-js",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/core-js",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/core-js/LICENSE"
+  },
+  "core-util-is@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/isaacs/core-util-is",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/core-util-is",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/core-util-is/LICENSE"
+  },
+  "css-vendor@2.0.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/cssinjs/css-vendor",
+    "publisher": "Oleg Slobodskoi",
+    "email": "oleg008@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/css-vendor",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/css-vendor/LICENSE"
+  },
+  "csstype@2.6.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/frenic/csstype",
+    "publisher": "Fredrik Nicol",
+    "email": "fredrik.nicol@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/csstype",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/csstype/LICENSE"
+  },
+  "dashdash@1.14.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/trentm/node-dashdash",
+    "publisher": "Trent Mick",
+    "email": "trentm@gmail.com",
+    "url": "http://trentm.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/dashdash",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/dashdash/LICENSE.txt"
+  },
+  "debug@2.6.9": {
+    "licenses": "MIT",
+    "repository": "https://github.com/visionmedia/debug",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/debug",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/debug/LICENSE"
+  },
+  "debug@3.2.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/visionmedia/debug",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/license-checker/node_modules/debug",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/license-checker/node_modules/debug/LICENSE"
+  },
+  "debug@4.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/visionmedia/debug",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/electron-rebuild/node_modules/debug",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/electron-rebuild/node_modules/debug/LICENSE"
+  },
+  "debuglog@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sam-github/node-debuglog",
+    "publisher": "Sam Roberts",
+    "email": "sam@strongloop.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/debuglog",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/debuglog/LICENSE"
+  },
+  "decamelize@1.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/decamelize",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/decamelize",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/decamelize/license"
+  },
+  "decode-uri-component@0.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/SamVerschueren/decode-uri-component",
+    "publisher": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/decode-uri-component",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/decode-uri-component/license"
+  },
+  "deep-extend@0.6.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/unclechu/node-deep-extend",
+    "publisher": "Viacheslav Lotsmanov",
+    "email": "lotsmanov89@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/deep-extend",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/deep-extend/LICENSE"
+  },
+  "deepmerge@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TehShrike/deepmerge",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/deepmerge",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/deepmerge/license.txt"
+  },
+  "defaults@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tmpvar/defaults",
+    "publisher": "Elijah Insua",
+    "email": "tmpvar@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/defaults",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/defaults/LICENSE"
+  },
+  "define-property@0.2.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/define-property",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/class-utils/node_modules/define-property",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/class-utils/node_modules/define-property/LICENSE"
+  },
+  "define-property@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/define-property",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/base/node_modules/define-property",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/base/node_modules/define-property/LICENSE"
+  },
+  "define-property@2.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/define-property",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/define-property",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/define-property/LICENSE"
+  },
+  "delayed-stream@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/felixge/node-delayed-stream",
+    "publisher": "Felix Geisendörfer",
+    "email": "felix@debuggable.com",
+    "url": "http://debuggable.com/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/delayed-stream",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/delayed-stream/License"
+  },
+  "delegates@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/visionmedia/node-delegates",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/delegates",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/delegates/License"
+  },
+  "detect-indent@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/detect-indent",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/detect-indent",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/detect-indent/license"
+  },
+  "detect-libc@1.0.3": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/lovell/detect-libc",
+    "publisher": "Lovell Fuller",
+    "email": "npm@lovell.info",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/detect-libc",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/detect-libc/LICENSE"
+  },
+  "dezalgo@1.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/dezalgo",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/dezalgo",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/dezalgo/LICENSE"
+  },
+  "dom-helpers@3.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jquense/dom-helpers",
+    "publisher": "Jason Quense",
+    "email": "monastic.panic@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/dom-helpers",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/dom-helpers/LICENSE"
+  },
+  "ecc-jsbn@0.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/quartzjer/ecc-jsbn",
+    "publisher": "Jeremie Miller",
+    "email": "jeremie@jabber.org",
+    "url": "http://jeremie.com/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ecc-jsbn",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ecc-jsbn/LICENSE"
+  },
+  "electron-log@3.0.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/megahertz/electron-log",
+    "publisher": "Alexey Prokhorov",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/electron-log",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/electron-log/LICENSE"
+  },
+  "electron-rebuild@1.8.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron/electron-rebuild",
+    "publisher": "Paul Betts",
+    "email": "paul@paulbetts.org",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/electron-rebuild",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/electron-rebuild/README.md"
+  },
+  "electron-to-chromium@1.3.223": {
+    "licenses": "ISC",
+    "repository": "https://github.com/kilian/electron-to-chromium",
+    "publisher": "Kilian Valkhof",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/electron-to-chromium",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/electron-to-chromium/LICENSE"
+  },
+  "electroncrud@1.0.0": {
+    "licenses": "ISC",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD"
+  },
+  "emoji-regex@7.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/emoji-regex",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/emoji-regex",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/emoji-regex/LICENSE-MIT.txt"
+  },
+  "env-paths@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/env-paths",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/node-gyp/node_modules/env-paths",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/node-gyp/node_modules/env-paths/license"
+  },
+  "es6-promise@4.2.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/stefanpenner/es6-promise",
+    "publisher": "Yehuda Katz, Tom Dale, Stefan Penner and contributors",
+    "url": "Conversion to ES6 API by Jake Archibald",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/es6-promise",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/es6-promise/LICENSE"
+  },
+  "escape-string-regexp@1.0.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/escape-string-regexp",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/escape-string-regexp",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/escape-string-regexp/license"
+  },
+  "esutils@2.0.3": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/estools/esutils",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/esutils",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/esutils/LICENSE.BSD"
+  },
+  "expand-brackets@0.1.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/expand-brackets",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/expand-brackets",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/expand-brackets/LICENSE"
+  },
+  "expand-brackets@2.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/expand-brackets",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp/node_modules/expand-brackets",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp/node_modules/expand-brackets/LICENSE"
+  },
+  "expand-range@1.8.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/expand-range",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/expand-range",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/expand-range/LICENSE"
+  },
+  "extend-shallow@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/extend-shallow",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/set-value/node_modules/extend-shallow",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/set-value/node_modules/extend-shallow/LICENSE"
+  },
+  "extend-shallow@3.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/extend-shallow",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/extend-shallow",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/extend-shallow/LICENSE"
+  },
+  "extend@3.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/justmoon/node-extend",
+    "publisher": "Stefan Thomas",
+    "email": "justmoon@members.fsf.org",
+    "url": "http://www.justmoon.net",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/extend",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/extend/LICENSE"
+  },
+  "extglob@0.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/extglob",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/extglob",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/extglob/LICENSE"
+  },
+  "extglob@2.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/extglob",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp/node_modules/extglob",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp/node_modules/extglob/LICENSE"
+  },
+  "extsprintf@1.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/davepacheco/node-extsprintf",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/extsprintf",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/extsprintf/LICENSE"
+  },
+  "fast-deep-equal@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/fast-deep-equal",
+    "publisher": "Evgeny Poberezkin",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fast-deep-equal",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fast-deep-equal/LICENSE"
+  },
+  "fast-json-stable-stringify@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/fast-json-stable-stringify",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fast-json-stable-stringify",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fast-json-stable-stringify/LICENSE"
+  },
+  "filename-regex@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/regexhq/filename-regex",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/filename-regex",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/filename-regex/LICENSE"
+  },
+  "fill-range@2.2.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/fill-range",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fill-range",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fill-range/LICENSE"
+  },
+  "fill-range@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/fill-range",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp/node_modules/fill-range",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp/node_modules/fill-range/LICENSE"
+  },
+  "find-up@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/find-up",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/yargs/node_modules/find-up",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/yargs/node_modules/find-up/license"
+  },
+  "for-in@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/for-in",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/for-in",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/for-in/LICENSE"
+  },
+  "for-own@0.1.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/for-own",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/for-own",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/for-own/LICENSE"
+  },
+  "forever-agent@0.6.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/mikeal/forever-agent",
+    "publisher": "Mikeal Rogers",
+    "email": "mikeal.rogers@gmail.com",
+    "url": "http://www.futurealoof.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/forever-agent",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/forever-agent/LICENSE"
+  },
+  "form-data@2.3.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/form-data/form-data",
+    "publisher": "Felix Geisendörfer",
+    "email": "felix@debuggable.com",
+    "url": "http://debuggable.com/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/form-data",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/form-data/License"
+  },
+  "fragment-cache@0.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/fragment-cache",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fragment-cache",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fragment-cache/LICENSE"
+  },
+  "fs-extra@7.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jprichardson/node-fs-extra",
+    "publisher": "JP Richardson",
+    "email": "jprichardson@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/electron-rebuild/node_modules/fs-extra",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/electron-rebuild/node_modules/fs-extra/LICENSE"
+  },
+  "fs-minipass@1.2.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/fs-minipass",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/fs-minipass",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/fs-minipass/LICENSE"
+  },
+  "fs-minipass@1.2.6": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/fs-minipass",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fs-minipass",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fs-minipass/LICENSE"
+  },
+  "fs-readdir-recursive@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/fs-utils/fs-readdir-recursive",
+    "publisher": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fs-readdir-recursive",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fs-readdir-recursive/LICENSE"
+  },
+  "fs.realpath@1.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/fs.realpath",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fs.realpath",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fs.realpath/LICENSE"
+  },
+  "fs@0.0.1-security": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/security-holder",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fs",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fs/README.md"
+  },
+  "fsevents@1.2.9": {
+    "licenses": "MIT",
+    "repository": "https://github.com/strongloop/fsevents",
+    "publisher": "Philipp Dunkel",
+    "email": "pip@pipobscure.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/LICENSE"
+  },
+  "gauge@2.7.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/iarna/gauge",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/gauge",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/gauge/LICENSE"
+  },
+  "get-caller-file@2.0.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/stefanpenner/get-caller-file",
+    "publisher": "Stefan Penner",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/get-caller-file",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/get-caller-file/LICENSE.md"
+  },
+  "get-value@2.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/get-value",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/get-value",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/get-value/LICENSE"
+  },
+  "getpass@0.1.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/arekinath/node-getpass",
+    "publisher": "Alex Wilson",
+    "email": "alex.wilson@joyent.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/getpass",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/getpass/LICENSE"
+  },
+  "glob-base@0.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/glob-base",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/glob-base",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/glob-base/LICENSE"
+  },
+  "glob-parent@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/es128/glob-parent",
+    "publisher": "Elan Shanker",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/glob-parent",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/glob-parent/LICENSE"
+  },
+  "glob@7.1.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-glob",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/glob",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/glob/LICENSE"
+  },
+  "glob@7.1.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-glob",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/glob",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/glob/LICENSE"
+  },
+  "globals@9.18.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/globals",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/globals",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/globals/license"
+  },
+  "graceful-fs@4.2.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-graceful-fs",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/graceful-fs",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/graceful-fs/LICENSE"
+  },
+  "gud@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jamiebuilds/global-unique-id",
+    "publisher": "Jamie Kyle",
+    "email": "me@thejameskyle.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/gud",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/gud/README.md"
+  },
+  "har-schema@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/ahmadnassri/har-schema",
+    "publisher": "Ahmad Nassri",
+    "email": "ahmad@ahmadnassri.com",
+    "url": "https://www.ahmadnassri.com/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/har-schema",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/har-schema/LICENSE"
+  },
+  "har-validator@5.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ahmadnassri/node-har-validator",
+    "publisher": "Ahmad Nassri",
+    "email": "ahmad@ahmadnassri.com",
+    "url": "https://www.ahmadnassri.com/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/har-validator",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/har-validator/LICENSE"
+  },
+  "has-ansi@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/has-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/has-ansi",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/has-ansi/license"
+  },
+  "has-flag@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/has-flag",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/has-flag",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/has-flag/license"
+  },
+  "has-unicode@2.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/iarna/has-unicode",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/has-unicode",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/has-unicode/LICENSE"
+  },
+  "has-value@0.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/has-value",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/unset-value/node_modules/has-value",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/unset-value/node_modules/has-value/LICENSE"
+  },
+  "has-value@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/has-value",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/has-value",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/has-value/LICENSE"
+  },
+  "has-values@0.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/has-values",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/unset-value/node_modules/has-values",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/unset-value/node_modules/has-values/LICENSE"
+  },
+  "has-values@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/has-values",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/has-values",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/has-values/LICENSE"
+  },
+  "history@4.9.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ReactTraining/history",
+    "publisher": "Michael Jackson",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/history",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/history/LICENSE"
+  },
+  "hoist-non-react-statics@3.3.0": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/mridgway/hoist-non-react-statics",
+    "publisher": "Michael Ridgway",
+    "email": "mcridgway@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/hoist-non-react-statics",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/hoist-non-react-statics/LICENSE.md"
+  },
+  "home-or-tmp@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/home-or-tmp",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/home-or-tmp",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/home-or-tmp/license"
+  },
+  "hosted-git-info@2.8.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/hosted-git-info",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/hosted-git-info",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/hosted-git-info/LICENSE"
+  },
+  "http-signature@1.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/joyent/node-http-signature",
+    "publisher": "Joyent, Inc",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/http-signature",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/http-signature/LICENSE"
+  },
+  "hyphenate-style-name@1.0.3": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/rexxars/hyphenate-style-name",
+    "publisher": "Espen Hovlandsdal",
+    "email": "espen@hovlandsdal.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/hyphenate-style-name",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/hyphenate-style-name/LICENSE"
+  },
+  "iconv-lite@0.4.24": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ashtuchkin/iconv-lite",
+    "publisher": "Alexander Shtuchkin",
+    "email": "ashtuchkin@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/iconv-lite",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/iconv-lite/LICENSE"
+  },
+  "ignore-walk@3.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/ignore-walk",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/ignore-walk",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/ignore-walk/LICENSE"
+  },
+  "immediate@3.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/calvinmetcalf/immediate",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/immediate",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/immediate/LICENSE.txt"
+  },
+  "inflight@1.0.6": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/inflight",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/inflight",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/inflight/LICENSE"
+  },
+  "inherits@2.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/inherits",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/inherits",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/inherits/LICENSE"
+  },
+  "inherits@2.0.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/inherits",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/inherits",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/inherits/LICENSE"
+  },
+  "ini@1.3.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/ini",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/ini",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/ini/LICENSE"
+  },
+  "invariant@2.2.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zertosh/invariant",
+    "publisher": "Andres Suarez",
+    "email": "zertosh@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/invariant",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/invariant/LICENSE"
+  },
+  "is-accessor-descriptor@0.1.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-accessor-descriptor",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-accessor-descriptor",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-accessor-descriptor/LICENSE"
+  },
+  "is-accessor-descriptor@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-accessor-descriptor",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/define-property/node_modules/is-accessor-descriptor",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/define-property/node_modules/is-accessor-descriptor/LICENSE"
+  },
+  "is-binary-path@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-binary-path",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-binary-path",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-binary-path/license"
+  },
+  "is-buffer@1.1.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/feross/is-buffer",
+    "publisher": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "http://feross.org/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-buffer",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-buffer/LICENSE"
+  },
+  "is-data-descriptor@0.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-data-descriptor",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-data-descriptor",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-data-descriptor/LICENSE"
+  },
+  "is-data-descriptor@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-data-descriptor",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/define-property/node_modules/is-data-descriptor",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/define-property/node_modules/is-data-descriptor/LICENSE"
+  },
+  "is-descriptor@0.1.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-descriptor",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-descriptor",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-descriptor/LICENSE"
+  },
+  "is-descriptor@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-descriptor",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/define-property/node_modules/is-descriptor",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/define-property/node_modules/is-descriptor/LICENSE"
+  },
+  "is-dotfile@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-dotfile",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-dotfile",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-dotfile/LICENSE"
+  },
+  "is-equal-shallow@0.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-equal-shallow",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-equal-shallow",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-equal-shallow/LICENSE"
+  },
+  "is-extendable@0.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-extendable",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-extendable",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-extendable/LICENSE"
+  },
+  "is-extendable@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-extendable",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/extend-shallow/node_modules/is-extendable",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/extend-shallow/node_modules/is-extendable/LICENSE"
+  },
+  "is-extglob@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-extglob",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-extglob",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-extglob/LICENSE"
+  },
+  "is-finite@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-finite",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-finite",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-finite/license"
+  },
+  "is-fullwidth-code-point@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-fullwidth-code-point",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-fullwidth-code-point",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-fullwidth-code-point/license"
+  },
+  "is-fullwidth-code-point@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-fullwidth-code-point",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/cliui/node_modules/is-fullwidth-code-point",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/cliui/node_modules/is-fullwidth-code-point/license"
+  },
+  "is-glob@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-glob",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-glob",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-glob/LICENSE"
+  },
+  "is-in-browser@1.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tuxsudo/is-in-browser",
+    "publisher": "Jared Anderson",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-in-browser",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-in-browser/readme.md"
+  },
+  "is-number@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-number",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-number",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-number/LICENSE"
+  },
+  "is-number@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-number",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp/node_modules/is-number",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp/node_modules/is-number/LICENSE"
+  },
+  "is-number@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-number",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/randomatic/node_modules/is-number",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/randomatic/node_modules/is-number/LICENSE"
+  },
+  "is-plain-object@2.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-plain-object",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-plain-object",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-plain-object/LICENSE"
+  },
+  "is-plain-object@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-plain-object",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@material-ui/core/node_modules/is-plain-object",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@material-ui/core/node_modules/is-plain-object/LICENSE"
+  },
+  "is-posix-bracket@0.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-posix-bracket",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-posix-bracket",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-posix-bracket/LICENSE"
+  },
+  "is-primitive@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-primitive",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-primitive",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-primitive/LICENSE"
+  },
+  "is-typedarray@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/hughsk/is-typedarray",
+    "publisher": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-typedarray",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-typedarray/LICENSE.md"
+  },
+  "is-windows@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-windows",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-windows",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-windows/LICENSE"
+  },
+  "isarray@0.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/isarray",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/path-to-regexp/node_modules/isarray",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/path-to-regexp/node_modules/isarray/README.md"
+  },
+  "isarray@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/isarray",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/isarray",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/isarray/README.md"
+  },
+  "isexe@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/isexe",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/isexe",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/isexe/LICENSE"
+  },
+  "isobject@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/isobject",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/isobject",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/isobject/LICENSE"
+  },
+  "isobject@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/isobject",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/object-visit/node_modules/isobject",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/object-visit/node_modules/isobject/LICENSE"
+  },
+  "isobject@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/isobject",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@material-ui/core/node_modules/isobject",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@material-ui/core/node_modules/isobject/LICENSE"
+  },
+  "isstream@0.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/rvagg/isstream",
+    "publisher": "Rod Vagg",
+    "email": "rod@vagg.org",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/isstream",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/isstream/LICENSE.md"
+  },
+  "js-tokens@3.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lydell/js-tokens",
+    "publisher": "Simon Lydell",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/js-tokens",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/js-tokens/LICENSE"
+  },
+  "jsbn@0.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/andyperlitch/jsbn",
+    "publisher": "Tom Wu",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jsbn",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jsbn/LICENSE"
+  },
+  "jsesc@0.5.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/jsesc",
+    "publisher": "Mathias Bynens",
+    "url": "http://mathiasbynens.be/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regjsparser/node_modules/jsesc",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regjsparser/node_modules/jsesc/LICENSE-MIT.txt"
+  },
+  "jsesc@1.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/jsesc",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jsesc",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jsesc/LICENSE-MIT.txt"
+  },
+  "json-parse-better-errors@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zkat/json-parse-better-errors",
+    "publisher": "Kat Marchán",
+    "email": "kzm@zkat.tech",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/json-parse-better-errors",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/json-parse-better-errors/LICENSE.md"
+  },
+  "json-schema-traverse@0.4.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/json-schema-traverse",
+    "publisher": "Evgeny Poberezkin",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/json-schema-traverse",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/json-schema-traverse/LICENSE"
+  },
+  "json-schema@0.2.3": {
+    "licenses": [
+      "AFLv2.1",
+      "BSD"
+    ],
+    "repository": "https://github.com/kriszyp/json-schema",
+    "publisher": "Kris Zyp",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/json-schema",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/json-schema/README.md"
+  },
+  "json-stringify-safe@5.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/json-stringify-safe",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/json-stringify-safe",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/json-stringify-safe/LICENSE"
+  },
+  "json5@0.5.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/aseemk/json5",
+    "publisher": "Aseem Kishore",
+    "email": "aseem.kishore@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/json5",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/json5/LICENSE.md"
+  },
+  "jsonfile@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jprichardson/node-jsonfile",
+    "publisher": "JP Richardson",
+    "email": "jprichardson@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jsonfile",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jsonfile/LICENSE"
+  },
+  "jsprim@1.4.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/joyent/node-jsprim",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jsprim",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jsprim/LICENSE"
+  },
+  "jss-plugin-camel-case@10.0.0-alpha.23": {
+    "licenses": "MIT",
+    "repository": "https://github.com/cssinjs/jss",
+    "publisher": "JSS Team",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jss-plugin-camel-case",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jss-plugin-camel-case/LICENSE"
+  },
+  "jss-plugin-default-unit@10.0.0-alpha.23": {
+    "licenses": "MIT",
+    "repository": "https://github.com/cssinjs/jss",
+    "publisher": "JSS Team",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jss-plugin-default-unit",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jss-plugin-default-unit/LICENSE"
+  },
+  "jss-plugin-global@10.0.0-alpha.23": {
+    "licenses": "MIT",
+    "repository": "https://github.com/cssinjs/jss",
+    "publisher": "JSS Team",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jss-plugin-global",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jss-plugin-global/LICENSE"
+  },
+  "jss-plugin-nested@10.0.0-alpha.23": {
+    "licenses": "MIT",
+    "repository": "https://github.com/cssinjs/jss",
+    "publisher": "JSS Team",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jss-plugin-nested",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jss-plugin-nested/LICENSE"
+  },
+  "jss-plugin-props-sort@10.0.0-alpha.23": {
+    "licenses": "MIT",
+    "repository": "https://github.com/cssinjs/jss",
+    "publisher": "JSS Team",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jss-plugin-props-sort",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jss-plugin-props-sort/LICENSE"
+  },
+  "jss-plugin-rule-value-function@10.0.0-alpha.23": {
+    "licenses": "MIT",
+    "repository": "https://github.com/cssinjs/jss",
+    "publisher": "JSS Team",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jss-plugin-rule-value-function",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jss-plugin-rule-value-function/LICENSE"
+  },
+  "jss-plugin-vendor-prefixer@10.0.0-alpha.23": {
+    "licenses": "MIT",
+    "repository": "https://github.com/cssinjs/jss",
+    "publisher": "JSS Team",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jss-plugin-vendor-prefixer",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jss-plugin-vendor-prefixer/LICENSE"
+  },
+  "jss@10.0.0-alpha.23": {
+    "licenses": "MIT",
+    "repository": "https://github.com/cssinjs/jss",
+    "publisher": "JSS Team",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jss",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/jss/LICENSE"
+  },
+  "kind-of@3.2.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/kind-of",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/kind-of",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/kind-of/LICENSE"
+  },
+  "kind-of@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/kind-of",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/has-values/node_modules/kind-of",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/has-values/node_modules/kind-of/LICENSE"
+  },
+  "kind-of@5.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/kind-of",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-descriptor/node_modules/kind-of",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/is-descriptor/node_modules/kind-of/LICENSE"
+  },
+  "kind-of@6.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/kind-of",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/randomatic/node_modules/kind-of",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/randomatic/node_modules/kind-of/LICENSE"
+  },
+  "license-checker@25.0.1": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/davglass/license-checker",
+    "publisher": "Dav Glass",
+    "email": "davglass@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/license-checker",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/license-checker/LICENSE"
+  },
+  "lie@3.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/calvinmetcalf/lie",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/lie",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/lie/license.md"
+  },
+  "localforage@1.7.3": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/localForage/localForage",
+    "publisher": "Mozilla",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/localforage",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/localforage/LICENSE"
+  },
+  "locate-path@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/locate-path",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/yargs/node_modules/locate-path",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/yargs/node_modules/locate-path/license"
+  },
+  "lodash.assign@4.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lodash/lodash",
+    "publisher": "John-David Dalton",
+    "email": "john.david.dalton@gmail.com",
+    "url": "http://allyoucanleet.com/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/lodash.assign",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/lodash.assign/LICENSE"
+  },
+  "lodash@4.17.15": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lodash/lodash",
+    "publisher": "John-David Dalton",
+    "email": "john.david.dalton@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/lodash",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/lodash/LICENSE"
+  },
+  "log-symbols@2.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/log-symbols",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/log-symbols",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/log-symbols/license"
+  },
+  "loose-envify@1.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zertosh/loose-envify",
+    "publisher": "Andres Suarez",
+    "email": "zertosh@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/loose-envify",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/loose-envify/LICENSE"
+  },
+  "lru-cache@5.1.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-lru-cache",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/lru-cache",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/lru-cache/LICENSE"
+  },
+  "map-cache@0.2.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/map-cache",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/map-cache",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/map-cache/LICENSE"
+  },
+  "map-visit@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/map-visit",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/map-visit",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/map-visit/LICENSE"
+  },
+  "math-random@1.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/michaelrhodes/math-random",
+    "publisher": "Michael Rhodes",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/math-random",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/math-random/readme.md"
+  },
+  "micromatch@2.3.11": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/micromatch",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/micromatch",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/micromatch/LICENSE"
+  },
+  "micromatch@3.1.10": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/micromatch",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp/node_modules/micromatch",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp/node_modules/micromatch/LICENSE"
+  },
+  "mime-db@1.40.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jshttp/mime-db",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/mime-db",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/mime-db/LICENSE"
+  },
+  "mime-types@2.1.24": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jshttp/mime-types",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/mime-types",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/mime-types/LICENSE"
+  },
+  "mimic-fn@1.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/mimic-fn",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/onetime/node_modules/mimic-fn",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/onetime/node_modules/mimic-fn/license"
+  },
+  "mini-create-react-context@0.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/StringEpsilon/mini-create-react-context",
+    "publisher": "StringEpsilon",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/mini-create-react-context",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/mini-create-react-context/LICENSE"
+  },
+  "minimatch@3.0.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minimatch",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/minimatch",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/minimatch/LICENSE"
+  },
+  "minimist@0.0.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/minimist",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/minimist",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/minimist/LICENSE"
+  },
+  "minimist@1.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/minimist",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/rc/node_modules/minimist",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/rc/node_modules/minimist/LICENSE"
+  },
+  "minipass@2.3.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minipass",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/minipass",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/minipass/LICENSE"
+  },
+  "minizlib@1.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/isaacs/minizlib",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/minizlib",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/minizlib/LICENSE"
+  },
+  "mixin-deep@1.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/mixin-deep",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/mixin-deep",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/mixin-deep/LICENSE"
+  },
+  "mkdirp@0.5.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/node-mkdirp",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/mkdirp",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/mkdirp/LICENSE"
+  },
+  "ms@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zeit/ms",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ms",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ms/license.md"
+  },
+  "ms@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zeit/ms",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/ms",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/ms/license.md"
+  },
+  "ms@2.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zeit/ms",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/electron-rebuild/node_modules/ms",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/electron-rebuild/node_modules/ms/license.md"
+  },
+  "nan@2.14.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodejs/nan",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/nan",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/nan/LICENSE.md"
+  },
+  "nanomatch@1.2.13": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/nanomatch",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/nanomatch",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/nanomatch/LICENSE"
+  },
+  "nedb@1.8.0": {
+    "licenses": "MIT*",
+    "repository": "https://github.com/louischatriot/nedb",
+    "publisher": "Louis Chatriot",
+    "email": "louis.chatriot@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/nedb",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/nedb/LICENSE"
+  },
+  "needle@2.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tomas/needle",
+    "publisher": "Tomás Pollak",
+    "email": "tomas@forkhq.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/needle",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/needle/license.txt"
+  },
+  "node-abi@2.11.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lgeiger/node-abi",
+    "publisher": "Lukas Geiger",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/node-abi",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/node-abi/LICENSE"
+  },
+  "node-gyp@5.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodejs/node-gyp",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://tootallnate.net",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/node-gyp",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/node-gyp/LICENSE"
+  },
+  "node-pre-gyp@0.12.0": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/mapbox/node-pre-gyp",
+    "publisher": "Dane Springmeyer",
+    "email": "dane@mapbox.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/node-pre-gyp",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/node-pre-gyp/LICENSE"
+  },
+  "nopt@3.0.6": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/nopt",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/node-gyp/node_modules/nopt",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/node-gyp/node_modules/nopt/LICENSE"
+  },
+  "nopt@4.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/nopt",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/nopt",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/nopt/LICENSE"
+  },
+  "normalize-package-data@2.5.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/npm/normalize-package-data",
+    "publisher": "Meryn Stol",
+    "email": "merynstol@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/normalize-package-data",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/normalize-package-data/LICENSE"
+  },
+  "normalize-path@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/normalize-path",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/normalize-path",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/normalize-path/LICENSE"
+  },
+  "normalize-scroll-left@0.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/alitaheri/normalize-scroll-left",
+    "publisher": "Ali Taheri Moghaddar",
+    "email": "ali.taheri.m@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/normalize-scroll-left",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/normalize-scroll-left/LICENSE"
+  },
+  "npm-bundled@1.0.6": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/npm-bundled",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/npm-bundled",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/npm-bundled/LICENSE"
+  },
+  "npm-packlist@1.4.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/npm-packlist",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/npm-packlist",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/npm-packlist/LICENSE"
+  },
+  "npmlog@4.1.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/npmlog",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/npmlog",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/npmlog/LICENSE"
+  },
+  "number-is-nan@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/number-is-nan",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/number-is-nan",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/number-is-nan/license"
+  },
+  "oauth-sign@0.9.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/mikeal/oauth-sign",
+    "publisher": "Mikeal Rogers",
+    "email": "mikeal.rogers@gmail.com",
+    "url": "http://www.futurealoof.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/oauth-sign",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/oauth-sign/LICENSE"
+  },
+  "object-assign@4.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/object-assign",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/object-assign",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/object-assign/license"
+  },
+  "object-copy@0.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/object-copy",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/object-copy",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/object-copy/LICENSE"
+  },
+  "object-visit@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/object-visit",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/object-visit",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/object-visit/LICENSE"
+  },
+  "object.omit@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/object.omit",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/object.omit",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/object.omit/LICENSE"
+  },
+  "object.pick@1.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/object.pick",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/object.pick",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/object.pick/LICENSE"
+  },
+  "once@1.4.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/once",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/once",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/once/LICENSE"
+  },
+  "onetime@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/onetime",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/onetime",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/onetime/license"
+  },
+  "ora@3.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/ora",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ora",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ora/license"
+  },
+  "os-homedir@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/os-homedir",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/os-homedir",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/os-homedir/license"
+  },
+  "os-tmpdir@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/os-tmpdir",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/os-tmpdir",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/os-tmpdir/license"
+  },
+  "osenv@0.1.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/osenv",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/osenv",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/osenv/LICENSE"
+  },
+  "output-file-sync@1.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/shinnn/output-file-sync",
+    "publisher": "Shinnosuke Watanabe",
+    "url": "https://github.com/shinnn",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/output-file-sync",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/output-file-sync/LICENSE"
+  },
+  "p-limit@2.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-limit",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/yargs/node_modules/p-limit",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/yargs/node_modules/p-limit/license"
+  },
+  "p-locate@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-locate",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/yargs/node_modules/p-locate",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/yargs/node_modules/p-locate/license"
+  },
+  "p-try@2.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-try",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/yargs/node_modules/p-try",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/yargs/node_modules/p-try/license"
+  },
+  "parse-glob@3.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/parse-glob",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/parse-glob",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/parse-glob/LICENSE"
+  },
+  "pascalcase@0.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/pascalcase",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/pascalcase",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/pascalcase/LICENSE"
+  },
+  "path-exists@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/path-exists",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/path-exists",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/path-exists/license"
+  },
+  "path-is-absolute@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/path-is-absolute",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/path-is-absolute",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/path-is-absolute/license"
+  },
+  "path-parse@1.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jbgutierrez/path-parse",
+    "publisher": "Javier Blanco",
+    "email": "http://jbgutierrez.info",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/path-parse",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/path-parse/LICENSE"
+  },
+  "path-to-regexp@1.7.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/pillarjs/path-to-regexp",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/path-to-regexp",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/path-to-regexp/LICENSE"
+  },
+  "performance-now@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/braveg1rl/performance-now",
+    "publisher": "Braveg1rl",
+    "email": "braveg1rl@outlook.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/performance-now",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/performance-now/license.txt"
+  },
+  "popper.js@1.15.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/FezVrasta/popper.js",
+    "publisher": "Federico Zivolo",
+    "email": "federico.zivolo@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/popper.js",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/popper.js/README.md"
+  },
+  "posix-character-classes@0.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/posix-character-classes",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/posix-character-classes",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/posix-character-classes/LICENSE"
+  },
+  "preserve@0.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/preserve",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/preserve",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/preserve/LICENSE"
+  },
+  "private@0.1.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/benjamn/private",
+    "publisher": "Ben Newman",
+    "email": "bn@cs.stanford.edu",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/private",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/private/LICENSE"
+  },
+  "process-nextick-args@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/calvinmetcalf/process-nextick-args",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/process-nextick-args",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/process-nextick-args/license.md"
+  },
+  "process-nextick-args@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/calvinmetcalf/process-nextick-args",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/process-nextick-args",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/process-nextick-args/license.md"
+  },
+  "prop-types@15.7.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/prop-types",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/prop-types",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/prop-types/LICENSE"
+  },
+  "psl@1.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lupomontero/psl",
+    "publisher": "Lupo Montero",
+    "email": "lupomontero@gmail.com",
+    "url": "https://lupomontero.com/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/psl",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/psl/LICENSE"
+  },
+  "punycode@1.4.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/bestiejs/punycode.js",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/tough-cookie/node_modules/punycode",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/tough-cookie/node_modules/punycode/LICENSE-MIT.txt"
+  },
+  "punycode@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/bestiejs/punycode.js",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/punycode",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/punycode/LICENSE-MIT.txt"
+  },
+  "qs@6.5.2": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/ljharb/qs",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/qs",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/qs/LICENSE"
+  },
+  "randomatic@3.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/randomatic",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/randomatic",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/randomatic/LICENSE"
+  },
+  "rc@1.2.8": {
+    "licenses": "(BSD-2-Clause OR MIT OR Apache-2.0)",
+    "repository": "https://github.com/dominictarr/rc",
+    "publisher": "Dominic Tarr",
+    "email": "dominic.tarr@gmail.com",
+    "url": "dominictarr.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/rc",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/rc/LICENSE.APACHE2"
+  },
+  "react-dom@16.8.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/react-dom",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/react-dom/LICENSE"
+  },
+  "react-is@16.8.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/react-is",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/react-is/LICENSE"
+  },
+  "react-router-dom@5.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ReactTraining/react-router",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/react-router-dom",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/react-router-dom/LICENSE"
+  },
+  "react-router@5.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ReactTraining/react-router",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/react-router",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/react-router/LICENSE"
+  },
+  "react-transition-group@4.2.2": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/reactjs/react-transition-group",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/react-transition-group",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/react-transition-group/LICENSE"
+  },
+  "react@16.8.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/react",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/react/LICENSE"
+  },
+  "read-installed@4.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/read-installed",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/read-installed",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/read-installed/LICENSE"
+  },
+  "read-package-json@2.1.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/read-package-json",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/read-package-json",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/read-package-json/LICENSE"
+  },
+  "readable-stream@2.3.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodejs/readable-stream",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readable-stream",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readable-stream/LICENSE"
+  },
+  "readdir-scoped-modules@1.1.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/readdir-scoped-modules",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdir-scoped-modules",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdir-scoped-modules/LICENSE"
+  },
+  "readdirp@2.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/paulmillr/readdirp",
+    "publisher": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "thlorenz.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/readdirp/LICENSE"
+  },
+  "regenerate@1.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/regenerate",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regenerate",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regenerate/LICENSE-MIT.txt"
+  },
+  "regenerator-runtime@0.10.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime",
+    "publisher": "Ben Newman",
+    "email": "bn@cs.stanford.edu",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-polyfill/node_modules/regenerator-runtime",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-polyfill/node_modules/regenerator-runtime/README.md"
+  },
+  "regenerator-runtime@0.11.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime",
+    "publisher": "Ben Newman",
+    "email": "bn@cs.stanford.edu",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regenerator-runtime",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regenerator-runtime/README.md"
+  },
+  "regenerator-runtime@0.13.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime",
+    "publisher": "Ben Newman",
+    "email": "bn@cs.stanford.edu",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@babel/runtime/node_modules/regenerator-runtime",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/@babel/runtime/node_modules/regenerator-runtime/LICENSE"
+  },
+  "regenerator-transform@0.10.1": {
+    "licenses": "BSD*",
+    "repository": "https://github.com/facebook/regenerator/tree/master/packages/regenerator-transform",
+    "publisher": "Ben Newman",
+    "email": "bn@cs.stanford.edu",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regenerator-transform",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regenerator-transform/README.md"
+  },
+  "regex-cache@0.4.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/regex-cache",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regex-cache",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regex-cache/LICENSE"
+  },
+  "regex-not@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/regex-not",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regex-not",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regex-not/LICENSE"
+  },
+  "regexpu-core@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/regexpu-core",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regexpu-core",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regexpu-core/LICENSE-MIT.txt"
+  },
+  "regjsgen@0.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/d10/regjsgen",
+    "publisher": "Benjamin Tan",
+    "email": "demoneaux@gmail.com",
+    "url": "https://d10.github.io/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regjsgen",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regjsgen/LICENSE.txt"
+  },
+  "regjsparser@0.1.5": {
+    "licenses": "BSD*",
+    "repository": "https://github.com/jviereck/regjsparser",
+    "publisher": "'Julian Viereck'",
+    "email": "julian.viereck@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regjsparser",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/regjsparser/LICENSE.BSD"
+  },
+  "remove-trailing-separator@1.1.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/darsain/remove-trailing-separator",
+    "publisher": "darsain",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/remove-trailing-separator",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/remove-trailing-separator/license"
+  },
+  "repeat-element@1.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/repeat-element",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/repeat-element",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/repeat-element/LICENSE"
+  },
+  "repeat-string@1.6.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/repeat-string",
+    "publisher": "Jon Schlinkert",
+    "url": "http://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/repeat-string",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/repeat-string/LICENSE"
+  },
+  "repeating@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/repeating",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/repeating",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/repeating/license"
+  },
+  "request@2.88.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/request/request",
+    "publisher": "Mikeal Rogers",
+    "email": "mikeal.rogers@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/request",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/request/LICENSE"
+  },
+  "require-directory@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/troygoode/node-require-directory",
+    "publisher": "Troy Goode",
+    "email": "troygoode@gmail.com",
+    "url": "http://github.com/troygoode/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/require-directory",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/require-directory/LICENSE"
+  },
+  "require-main-filename@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/require-main-filename",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/require-main-filename",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/require-main-filename/LICENSE.txt"
+  },
+  "resolve-pathname@2.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mjackson/resolve-pathname",
+    "publisher": "Michael Jackson",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/resolve-pathname",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/resolve-pathname/README.md"
+  },
+  "resolve-url@0.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lydell/resolve-url",
+    "publisher": "Simon Lydell",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/resolve-url",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/resolve-url/LICENSE"
+  },
+  "resolve@1.12.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/browserify/resolve",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/resolve",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/resolve/LICENSE"
+  },
+  "restore-cursor@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/restore-cursor",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/restore-cursor",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/restore-cursor/license"
+  },
+  "ret@0.1.15": {
+    "licenses": "MIT",
+    "repository": "https://github.com/fent/ret.js",
+    "publisher": "Roly Fentanes",
+    "url": "https://github.com/fent",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ret",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ret/LICENSE"
+  },
+  "rimraf@2.6.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/rimraf",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/rimraf",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/rimraf/LICENSE"
+  },
+  "rxjs@6.5.2": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/reactivex/rxjs",
+    "publisher": "Ben Lesh",
+    "email": "ben@benlesh.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/rxjs",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/rxjs/LICENSE.txt"
+  },
+  "safe-buffer@5.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/feross/safe-buffer",
+    "publisher": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "http://feross.org",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/safe-buffer",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/safe-buffer/LICENSE"
+  },
+  "safe-regex@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/safe-regex",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/safe-regex",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/safe-regex/LICENSE"
+  },
+  "safer-buffer@2.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ChALkeR/safer-buffer",
+    "publisher": "Nikita Skovoroda",
+    "email": "chalkerx@gmail.com",
+    "url": "https://github.com/ChALkeR",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/safer-buffer",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/safer-buffer/LICENSE"
+  },
+  "sax@1.2.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/sax-js",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/sax",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/sax/LICENSE"
+  },
+  "scheduler@0.13.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/scheduler",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/scheduler/LICENSE"
+  },
+  "semver@5.3.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/node-gyp/node_modules/semver",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/node-gyp/node_modules/semver/LICENSE"
+  },
+  "semver@5.7.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-preset-env/node_modules/semver",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/babel-preset-env/node_modules/semver/LICENSE"
+  },
+  "semver@5.7.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/node-abi/node_modules/semver",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/node-abi/node_modules/semver/LICENSE"
+  },
+  "set-blocking@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/set-blocking",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/set-blocking",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/set-blocking/LICENSE.txt"
+  },
+  "set-value@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/set-value",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/set-value",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/set-value/LICENSE"
+  },
+  "signal-exit@3.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/tapjs/signal-exit",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/signal-exit",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/signal-exit/LICENSE.txt"
+  },
+  "slash@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/slash",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/slash",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/slash/readme.md"
+  },
+  "slide@1.1.6": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/slide-flow-control",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/slide",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/slide/LICENSE"
+  },
+  "snapdragon-node@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/snapdragon-node",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/snapdragon-node",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/snapdragon-node/LICENSE"
+  },
+  "snapdragon-util@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/snapdragon-util",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/snapdragon-util",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/snapdragon-util/LICENSE"
+  },
+  "snapdragon@0.8.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/snapdragon",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/snapdragon",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/snapdragon/LICENSE"
+  },
+  "source-map-resolve@0.5.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lydell/source-map-resolve",
+    "publisher": "Simon Lydell",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/source-map-resolve",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/source-map-resolve/LICENSE"
+  },
+  "source-map-support@0.4.18": {
+    "licenses": "MIT",
+    "repository": "https://github.com/evanw/node-source-map-support",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/source-map-support",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/source-map-support/LICENSE.md"
+  },
+  "source-map-url@0.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lydell/source-map-url",
+    "publisher": "Simon Lydell",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/source-map-url",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/source-map-url/LICENSE"
+  },
+  "source-map@0.5.7": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/mozilla/source-map",
+    "publisher": "Nick Fitzgerald",
+    "email": "nfitzgerald@mozilla.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/source-map",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/source-map/LICENSE"
+  },
+  "spawn-rx@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/paulcbetts/spawn-rx",
+    "publisher": "Paul Betts",
+    "email": "paul@paulbetts.org",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/spawn-rx",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/spawn-rx/COPYING"
+  },
+  "spdx-compare@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kemitchell/spdx-compare.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/spdx-compare",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/spdx-compare/LICENSE.md"
+  },
+  "spdx-correct@3.1.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/jslicense/spdx-correct.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/spdx-correct",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/spdx-correct/LICENSE"
+  },
+  "spdx-exceptions@2.2.0": {
+    "licenses": "CC-BY-3.0",
+    "repository": "https://github.com/kemitchell/spdx-exceptions.json",
+    "publisher": "The Linux Foundation",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/spdx-exceptions",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/spdx-exceptions/README.md"
+  },
+  "spdx-expression-parse@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jslicense/spdx-expression-parse.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "http://kemitchell.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/spdx-expression-parse",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/spdx-expression-parse/LICENSE"
+  },
+  "spdx-license-ids@3.0.5": {
+    "licenses": "CC0-1.0",
+    "repository": "https://github.com/shinnn/spdx-license-ids",
+    "publisher": "Shinnosuke Watanabe",
+    "url": "https://github.com/shinnn",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/spdx-license-ids",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/spdx-license-ids/README.md"
+  },
+  "spdx-ranges@2.1.1": {
+    "licenses": "(MIT AND CC-BY-3.0)",
+    "repository": "https://github.com/kemitchell/spdx-ranges.js",
+    "publisher": "The Linux Foundation",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/spdx-ranges",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/spdx-ranges/LICENSE.md"
+  },
+  "spdx-satisfies@4.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kemitchell/spdx-satisfies.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/spdx-satisfies",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/spdx-satisfies/LICENSE"
+  },
+  "split-string@3.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/split-string",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/split-string",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/split-string/LICENSE"
+  },
+  "sshpk@1.16.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/joyent/node-sshpk",
+    "publisher": "Joyent, Inc",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/sshpk",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/sshpk/LICENSE"
+  },
+  "static-extend@0.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/static-extend",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/static-extend",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/static-extend/LICENSE"
+  },
+  "string-width@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/string-width",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/string-width",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/string-width/license"
+  },
+  "string-width@3.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/string-width",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/cliui/node_modules/string-width",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/cliui/node_modules/string-width/license"
+  },
+  "string_decoder@1.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodejs/string_decoder",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/string_decoder",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/string_decoder/LICENSE"
+  },
+  "strip-ansi@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/strip-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/strip-ansi",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/strip-ansi/license"
+  },
+  "strip-ansi@5.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/strip-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ora/node_modules/strip-ansi",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ora/node_modules/strip-ansi/license"
+  },
+  "strip-json-comments@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/strip-json-comments",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/strip-json-comments",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/strip-json-comments/license"
+  },
+  "supports-color@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/supports-color",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/supports-color",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/supports-color/license"
+  },
+  "supports-color@5.5.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/supports-color",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ora/node_modules/supports-color",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/ora/node_modules/supports-color/license"
+  },
+  "tar@4.4.10": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-tar",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/tar",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/tar/LICENSE"
+  },
+  "tar@4.4.8": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-tar",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/tar",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/fsevents/node_modules/tar/LICENSE"
+  },
+  "tiny-invariant@1.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/alexreardon/tiny-invariant",
+    "publisher": "Alex Reardon",
+    "email": "alexreardon@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/tiny-invariant",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/tiny-invariant/LICENSE"
+  },
+  "tiny-warning@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/alexreardon/tiny-warning",
+    "publisher": "Alex Reardon",
+    "email": "alexreardon@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/tiny-warning",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/tiny-warning/LICENSE"
+  },
+  "to-fast-properties@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/to-fast-properties",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/to-fast-properties",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/to-fast-properties/license"
+  },
+  "to-object-path@0.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/to-object-path",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/to-object-path",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/to-object-path/LICENSE"
+  },
+  "to-regex-range@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/to-regex-range",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/to-regex-range",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/to-regex-range/LICENSE"
+  },
+  "to-regex@3.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/to-regex",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/to-regex",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/to-regex/LICENSE"
+  },
+  "tough-cookie@2.4.3": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/salesforce/tough-cookie",
+    "publisher": "Jeremy Stashewsky",
+    "email": "jstash@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/tough-cookie",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/tough-cookie/LICENSE"
+  },
+  "treeify@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/notatestuser/treeify",
+    "publisher": "Luke Plaster",
+    "email": "notatestuser@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/treeify",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/treeify/LICENSE"
+  },
+  "trim-right@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/trim-right",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/trim-right",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/trim-right/license"
+  },
+  "tslib@1.10.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/Microsoft/tslib",
+    "publisher": "Microsoft Corp.",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/tslib",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/tslib/LICENSE.txt"
+  },
+  "tunnel-agent@0.6.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/mikeal/tunnel-agent",
+    "publisher": "Mikeal Rogers",
+    "email": "mikeal.rogers@gmail.com",
+    "url": "http://www.futurealoof.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/tunnel-agent",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/tunnel-agent/LICENSE"
+  },
+  "tweetnacl@0.14.5": {
+    "licenses": "Unlicense",
+    "repository": "https://github.com/dchest/tweetnacl-js",
+    "publisher": "TweetNaCl-js contributors",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/tweetnacl",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/tweetnacl/LICENSE"
+  },
+  "underscore@1.4.4": {
+    "licenses": "MIT*",
+    "repository": "https://github.com/documentcloud/underscore",
+    "publisher": "Jeremy Ashkenas",
+    "email": "jeremy@documentcloud.org",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/underscore",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/underscore/LICENSE"
+  },
+  "union-value@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/union-value",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/union-value",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/union-value/LICENSE"
+  },
+  "universalify@0.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/RyanZim/universalify",
+    "publisher": "Ryan Zimmerman",
+    "email": "opensrc@ryanzim.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/universalify",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/universalify/LICENSE"
+  },
+  "unset-value@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/unset-value",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/unset-value",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/unset-value/LICENSE"
+  },
+  "uri-js@4.2.2": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/garycourt/uri-js",
+    "publisher": "Gary Court",
+    "email": "gary.court@gmail.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/uri-js",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/uri-js/README.md"
+  },
+  "urix@0.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lydell/urix",
+    "publisher": "Simon Lydell",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/urix",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/urix/LICENSE"
+  },
+  "use@3.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/use",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/use",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/use/LICENSE"
+  },
+  "user-home@1.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/user-home",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/user-home",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/user-home/license"
+  },
+  "util-deprecate@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TooTallNate/util-deprecate",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://n8.io/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/util-deprecate",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/util-deprecate/LICENSE"
+  },
+  "util-extend@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/isaacs/util-extend",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/util-extend",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/util-extend/LICENSE"
+  },
+  "uuid@3.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kelektiv/node-uuid",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/uuid",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/uuid/LICENSE.md"
+  },
+  "v8flags@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tkellen/node-v8flags",
+    "publisher": "Tyler Kellen",
+    "url": "http://goingslowly.com/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/v8flags",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/v8flags/LICENSE"
+  },
+  "validate-npm-package-license@3.0.4": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/kemitchell/validate-npm-package-license.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/validate-npm-package-license",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/validate-npm-package-license/LICENSE"
+  },
+  "value-equal@0.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mjackson/value-equal",
+    "publisher": "Michael Jackson",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/value-equal",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/value-equal/README.md"
+  },
+  "verror@1.10.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/davepacheco/node-verror",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/verror",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/verror/LICENSE"
+  },
+  "warning@4.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/BerkeleyTrue/warning",
+    "publisher": "Berkeley Martinez",
+    "email": "berkeley@berkeleytrue.com",
+    "url": "http://www.berkeleytrue.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/warning",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/warning/LICENSE.md"
+  },
+  "wcwidth@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/timoxley/wcwidth",
+    "publisher": "Tim Oxley",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/wcwidth",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/wcwidth/LICENSE"
+  },
+  "which-module@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/nexdrew/which-module",
+    "publisher": "nexdrew",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/which-module",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/which-module/LICENSE"
+  },
+  "which@1.3.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-which",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/which",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/which/LICENSE"
+  },
+  "wide-align@1.1.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/iarna/wide-align",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/wide-align",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/wide-align/LICENSE"
+  },
+  "wrap-ansi@5.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/wrap-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/wrap-ansi",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/wrap-ansi/license"
+  },
+  "wrappy@1.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/wrappy",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/wrappy",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/wrappy/LICENSE"
+  },
+  "y18n@4.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/y18n",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/y18n",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/y18n/LICENSE"
+  },
+  "yallist@3.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/yallist",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/yallist",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/yallist/LICENSE"
+  },
+  "yargs-parser@13.1.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/yargs-parser",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/yargs-parser",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/yargs-parser/LICENSE.txt"
+  },
+  "yargs@13.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/yargs/yargs",
+    "path": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/yargs",
+    "licenseFile": "/Users/miyakeippei/Desktop/workspace/myApp/ElectronCRUD/node_modules/yargs/LICENSE"
+  }
+}
+

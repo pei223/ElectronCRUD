@@ -10,7 +10,8 @@
     "start": "electron .",
     "bundle": "npm run prebundle && webpack",
     "prebundle": "cpx \"prod_resources/**/*\" dist",
-    "package": "npm run bundle &&  electron-packager ./dist --platform=darwin --out=release --overwrite"
+    "package": "npm run bundle &&  electron-packager ./dist --platform=darwin --out=release --overwrite",
+    "output_license": "./node_modules/.bin/license-checker --production --json > ./prod_resources/licenses.json"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +25,7 @@
     "electron-rebuild": "^1.8.6",
     "es6-promise": "^4.2.8",
     "fs": "0.0.1-security",
+    "license-checker": "^25.0.1",
     "nedb": "^1.8.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -39,6 +41,7 @@
     "electron": "^6.0.2",
     "electron-builder": "^21.2.0",
     "electron-packager": "^14.0.4",
+    "json-loader": "^0.5.7",
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.3",
     "webpack": "^4.39.1",
