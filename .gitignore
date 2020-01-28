@@ -2,7 +2,8 @@
 .DS_Store
 .tmp
 dist
-release
+release_win
+release_mac
 logs
 *.log
 npm-debug.log*

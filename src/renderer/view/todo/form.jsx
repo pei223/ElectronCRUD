@@ -5,10 +5,10 @@ import Icon from '@material-ui/core/Icon';
 import Checkbox from '@material-ui/core/Checkbox';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 // original
-import TodoEntity from "../entity/TodoEntity";
-import BlocProvider from "../bloc/BlocProvider";
-import { StateVal } from "../entity/TodoState";
-import Progress from "./util/progress";
+import TodoEntity from "../../domain/TodoEntity";
+import BlocProvider from "../../bloc/BlocProvider";
+import Progress from "../util/progress";
+import { Observer } from "../../bloc/Stream";
 
 // TODO データによってフォーム・stateを変更.
 export default class Form extends React.Component {
@@ -23,30 +23,18 @@ export default class Form extends React.Component {
             loading: id ? true : false,
             createdAt: 0
         }
-        this.onTodoStateChangedCallback = (data) => this._onTodoStateChanged(data)
-        this.onTodoFindedCallback = (data) => this._onTodoFinded(data)
-    }
-
-    _onTodoFinded(todo) {
-        if (todo[0]) {
-            this.setState({
-                todoTitle: todo[0].title,
-                checked: todo[0].checked,
-                loading: false,
-                createdAt: todo[0].createdAt
-            })
-        }
-    }
-
-    _onTodoStateChanged(todoState) {
-        switch(todoState.state) {
-            case StateVal.ADDED:
-                this.todoBloc.clearCachedPageNum()
-                this.todoBloc.clearCachedSearchInfo()
-            case StateVal.UPDATED:
-                this.props.history.push('/list')
-                break
-        }
+        this.todoObserver = new Observer((todo) => {
+            if (todo[0]) {
+                this.setState({
+                    todoTitle: todo[0].title,
+                    checked: todo[0].checked,
+                    loading: false,
+                    createdAt: todo[0].createdAt
+                })
+            }
+        }, (resultId) => {
+            // エラー処理
+        })
     }
 
     _validateCheck() {
@@ -65,24 +53,33 @@ export default class Form extends React.Component {
             loading: true,
         })
         if (this.state.id) {
-            this.todoBloc.updateTodo(new TodoEntity(this.state.id, this.state.todoTitle, this.state.checked, this.state.createdAt))
+            this.todoBloc.update(new TodoEntity(this.state.id, this.state.todoTitle, this.state.checked, this.state.createdAt)).then((result) => {
+                if (result) {
+                    this.props.history.push('/list')
+                } else {
+                    // TODO エラー処理
+                }
+            })
         } else {
-            this.todoBloc.clearCachedSearchInfo()
-            this.todoBloc.addTodo(new TodoEntity(null, this.state.todoTitle, this.state.checked, new Date().getTime()))
+            this.todoBloc.add(new TodoEntity(null, this.state.todoTitle, this.state.checked, new Date().getTime())).then((result) => {
+                if (result) {
+                    this.props.history.push('/list')
+                } else {
+                    // TODO エラー処理
+                }
+            })
         }
     }
 
     componentWillMount() {
-        this.todoBloc.todoStateStream.listen(this.onTodoStateChangedCallback)
-        this.todoBloc.todoStream.listen(this.onTodoFindedCallback)
+        this.todoBloc.todoStream.listen(this.todoObserver)
         if (this.state.id) {
-            this.todoBloc.findTodo(this.state.id)
+            this.todoBloc.find(this.state.id)
         }
     }
 
     componentWillUnmount() {
-        this.todoBloc.todoStream.delete(this.onTodoFindedCallback)
-        this.todoBloc.todoStateStream.delete(this.onTodoStateChangedCallback)
+        this.todoBloc.todoStream.delete(this.todoObserver)
     }
 
     render() {

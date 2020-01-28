@@ -10,9 +10,12 @@ export default class Paging extends React.Component {
     }
 
     render() {
+        if (this.props.pageInfo === null) {
+            return <div></div>
+        }
         let pagingArray = this._pagingArray()
         let firstPaging = pagingArray[0] > 0 ? <span>{this._pageLink(0)}...</span> : ""
-        let lastPaging = pagingArray[pagingArray.length - 1] < this.props.pageNum - 1 ? <span>...{this._pageLink(this.props.pageNum - 1)}</span> : ""
+        let lastPaging = pagingArray[pagingArray.length - 1] < this.props.pageInfo.lastPageNum - 1 ? <span>...{this._pageLink(this.props.pageInfo.lastPageNum - 1)}</span> : ""
         return (
             <div style={{
                 textAlign: "center",
@@ -30,8 +33,8 @@ export default class Paging extends React.Component {
                 style={{
                     marginLeft: "10px",
                     marginRight: "10px",
-                    fontSize: pageNum === this.props.selectedPageNum ? "25px" : "20px",
-                    color: pageNum === this.props.selectedPageNum ? "blue" : ""
+                    fontSize: pageNum === this.props.pageInfo.currentPageNum ? "25px" : "20px",
+                    color: pageNum === this.props.pageInfo.currentPageNum ? "blue" : ""
                 }}
                 onClick={() => {
                     this.props.onPageSelected(pageNum)
@@ -42,8 +45,8 @@ export default class Paging extends React.Component {
 
     _pagingArray() {
         let pagingArray = []
-        for (let i = this.props.selectedPageNum - DISPLAY_PAGE_RANGE; i <= this.props.selectedPageNum + DISPLAY_PAGE_RANGE; i++) {
-            if (i >= 0 && i < this.props.pageNum) {
+        for (let i = this.props.pageInfo.currentPageNum - DISPLAY_PAGE_RANGE; i <= this.props.pageInfo.currentPageNum + DISPLAY_PAGE_RANGE; i++) {
+            if (i >= 0 && i < this.props.pageInfo.lastPageNum) {
                 pagingArray.push(i)
             }
         }

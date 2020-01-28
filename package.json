@@ -10,11 +10,12 @@
     "start": "electron .",
     "bundle": "npm run prebundle && webpack",
     "prebundle": "cpx \"prod_resources/**/*\" dist",
-    "package": "npm run bundle &&  electron-packager ./dist --platform=darwin --out=release --overwrite",
+    "package_mac": "npm run bundle &&  electron-packager ./dist --platform=darwin --out=release_mac --overwrite",
+    "package_win": "npm run bundle &&  electron-packager ./dist --platform=win32 --arch=x64 --out=release_win --overwrite",
     "output_license": "./node_modules/.bin/license-checker --production --json > ./prod_resources/licenses.json"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "pei223",
+  "license": "MIT",
   "dependencies": {
     "@material-ui/core": "^4.3.2",
     "@material-ui/icons": "^4.2.1",
@@ -27,6 +28,7 @@
     "fs": "0.0.1-security",
     "license-checker": "^25.0.1",
     "nedb": "^1.8.0",
+
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router": "^5.0.1",

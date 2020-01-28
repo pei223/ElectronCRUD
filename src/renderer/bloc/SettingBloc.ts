@@ -1,27 +1,23 @@
-import AppSettingData from "../entity/AppSettingData";
+import AppSettingData from "../domain/AppSettingData";
 import AppSettingRepository from "../repository/AppSettinRepository";
 
-
 /**
- * ビジネスロジッククラス.
- * TODO 扱うデータに合わせる. 型だけ差し替えるのみでいい. 
+ * アプリ設定のビジネスロジッククラス.
  */
 export default class SettingBloc {
-    constructor() {
-    }
+  constructor() {}
 
-    getAppData(): AppSettingData {
-        return new AppSettingRepository().getAppSetting()
-    }
+  getAppData(): AppSettingData {
+    return new AppSettingRepository().getAppSetting();
+  }
 
-    setAppData(appSettingData: AppSettingData): boolean {
-        new AppSettingRepository().setAppSetting(appSettingData)
-        return true
-    }
+  setAppData(appSettingData: AppSettingData): boolean {
+    new AppSettingRepository().setAppSetting(appSettingData);
+    return true;
+  }
 
-    /**
-     * 後処理
-     */
-    dispose() {
-    }
+  /**
+   * 後処理
+   */
+  dispose() {}
 }

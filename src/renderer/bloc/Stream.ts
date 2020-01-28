@@ -1,45 +1,68 @@
 export default class Stream<Type> {
-    /**
-     * データを通知するオブザーバー
-     */
-    private observers: Array<(data: Type) => void>;
+  /**
+   * データを通知するオブザーバー
+   */
+  private observers: Array<Observer<Type>>;
 
-    constructor() {
-        this.observers = []
-    }
+  constructor() {
+    this.observers = [];
+  }
 
-    /**
-     * オブザーバーを登録する
-     * @param observer 等速したいオブザーバー
-     */
-    public listen(observer: (data: Type) => void) {
-        this.observers.push(observer)
-    }
+  /**
+   * オブザーバーを登録する
+   * @param observer 等速したいオブザーバー
+   */
+  public listen(observer: Observer<Type>) {
+    this.observers.push(observer);
+  }
 
-    /**
-     * 指定したオブザーバーを削除する
-     * @param deleteObserver 削除したいオブザーバー
-     */
-    public delete(deleteObserver: (data: Type) => void) {
-        this.observers = this.observers.filter(observer => observer !== deleteObserver)
-    }
+  /**
+   * 指定したオブザーバーを削除する
+   * @param deleteObserver 削除したいオブザーバー
+   */
+  public delete(deleteObserver: Observer<Type>) {
+    this.observers = this.observers.filter(
+      observer => observer !== deleteObserver
+    );
+  }
 
-    /**
-     * データをObserverに通知する
-     * @param data ストリームに流すデータ
-     */
-    public stream(data: Type) {
-        this.observers.forEach(observer => {
-            if (observer && observer instanceof Function) {
-                observer(data)
-            }
-        })
-    }
+  /**
+   * データをObserverに通知する
+   * @param data ストリームに流すデータ
+   */
+  public stream(data: Type) {
+    this.observers.forEach(observer => {
+      if (observer && observer instanceof Observer) {
+        observer.onSuccess(data);
+      }
+    });
+  }
 
-    /**
-     * Observer全削除
-     */
-    deleteAll() {
-        this.observers = []
-    }
+  public error(resultId: number) {
+    this.observers.forEach(observer => {
+      if (observer && observer instanceof Observer) {
+        observer.onError(resultId);
+      }
+    });
+  }
+
+  /**
+   * Observer全削除
+   */
+  deleteAll() {
+    this.observers = [];
+  }
+}
+
+export class Observer<Type> {
+  onSuccess: (data: Type) => void;
+  onError: (resultId: number) => void;
+
+  constructor(
+    onSuccess: (data: Type) => void,
+    onError: (resultId: number) => void
+  ) {
+    this.onSuccess = onSuccess;
+    this.onError = onError;
+  }
 }

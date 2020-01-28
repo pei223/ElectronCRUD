@@ -8,8 +8,8 @@ import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import red from '@material-ui/core/colors/red';
 import orange from '@material-ui/core/colors/orange';
 // original
-import List from './view/list';
-import Form from './view/form';
+import List from './view/todo/list';
+import Form from './view/todo/form';
 import Setting from './view/setting';
 
 /**

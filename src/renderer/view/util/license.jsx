@@ -1,6 +1,6 @@
 import React from "react"
 const shell = require('electron').shell
-let licenseJson = require("../../licenses.json")
+let licenseJson = require("../../../licenses.json")
 
 export default class license extends React.Component {
     constructor(props) {

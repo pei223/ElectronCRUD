@@ -7,8 +7,8 @@ import Backdrop from '@material-ui/core/Backdrop'
 import Icon from '@material-ui/core/Icon'
 // original
 import BlocProvider from "../bloc/BlocProvider";
-import AppSettingData from "../entity/AppSettingData";
-import License from "./license";
+import AppSettingData from "../domain/AppSettingData";
+import License from "./util/license";
 
 
 export default class Setting extends React.Component {

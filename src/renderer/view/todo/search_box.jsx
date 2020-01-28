@@ -6,7 +6,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel'
 import Drawer from '@material-ui/core/Drawer'
 import Fab from '@material-ui/core/Fab'
 // original
-import SearchInfo from '../../entity/SearchInfo'
+import SearchInfo from '../../domain/SearchInfo'
 
 
 // TODO データによってフォーム・stateを変更
