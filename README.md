@@ -11,3 +11,6 @@ Todo app using Electron.
 
 ## Design
 View -> Bloc -> Repository
+
+## Env
+- node: v11.0.0

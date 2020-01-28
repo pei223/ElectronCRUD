@@ -46,12 +46,10 @@ export default class TodoRepository {
   ): Promise<Array<TodoEntity> | null> {
     return new Promise((resolve, reject) => {
       todoDb
-        .find(searchInfo === null ? {} : this.toQuery(searchInfo))
+        .find({})
         .sort({
-          id: -1
+          createdAt: -1
         })
-        .skip(pageInfo.currentPageNum * pageInfo.onePageDataNum)
-        .limit(pageInfo.onePageDataNum)
         .exec(
           function(err: any, docs: any) {
             if (err) {
@@ -59,7 +57,17 @@ export default class TodoRepository {
               reject(null);
               return;
             }
-            resolve(this.parseTodoList(docs));
+            let todos: Array<TodoEntity> = this.parseTodoList(docs);
+            if (searchInfo !== null) {
+              todos = todos.filter(todo => {
+                return searchInfo.isApplicableToSearchInfo(todo);
+              });
+            }
+            todos = todos.slice(
+              pageInfo.currentPageNum * pageInfo.onePageDataNum,
+              (pageInfo.currentPageNum + 1) * pageInfo.onePageDataNum
+            );
+            resolve(todos);
           }.bind(this)
         );
     });
@@ -148,14 +156,20 @@ export default class TodoRepository {
   public async count(searchInfo: SearchInfo): Promise<number> {
     return new Promise((resolve, reject) => {
       todoDb.find(
-        searchInfo === null ? {} : this.toQuery(searchInfo),
+        {},
         function(err: any, docs: any) {
           if (err) {
             console.log(err);
             resolve(0);
             return;
           }
-          resolve(docs.length);
+          let todos: Array<TodoEntity> = this.parseTodoList(docs);
+          if (searchInfo !== null) {
+            todos = todos.filter(todo => {
+              return searchInfo.isApplicableToSearchInfo(todo);
+            });
+          }
+          resolve(todos.length);
         }.bind(this)
       );
     });
